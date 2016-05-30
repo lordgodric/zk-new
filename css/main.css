@@ -533,7 +533,7 @@ textarea {
     flex-grow: 1; }
     @media (min-width: 1200px) {
       .m-header-category-wrapper .e-category-line .e-category-item {
-        min-width: 16.666%; } }
+        min-width: 12.555%; } }
 .m-header-category-wrapper .e-category-first-line {
   margin-top: 15px; }
 
@@ -542,3 +542,11 @@ textarea {
 
 .limited-card .caption h3 {
   margin: 0px !important; }
+
+.card-footer {
+  height: 35px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  .card-footer p {
+    margin: 0; }

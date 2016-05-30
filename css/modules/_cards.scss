@@ -10,3 +10,14 @@
     margin: 0px !important;
   }
 }
+
+.card-footer {
+  height: 35px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  p {
+    margin: 0;
+  }
+}

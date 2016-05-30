@@ -30,6 +30,12 @@
         border-top: 1px solid $btn-border-color;
         border-right: 1px solid $btn-border-color;
 
+        // @media (max-width: $screen-sm-min) {
+        //   flex-direction: column;
+        //   align-items: center;
+        //   justify-content: center;
+        // }
+
         .send {
           font-size: 24px;
           padding-right: 12px;

@@ -6,6 +6,6 @@ $(window).scroll(function(event) {
   console.log('x ='   + wScroll / 100 );
   console.log('y ='  + wScroll / 1);
 
-  $('.l-header').css('background-position', ' ' + wScroll / 100 +'%  '+ wScroll / 10 +'% ');
+  $('.l-header').css('background-position', ' ' + wScroll / 100 +'%  '+ wScroll / 7 +'% ');
 
 });
