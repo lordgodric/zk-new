@@ -1,0 +1,30 @@
+.navbar {
+  // height: 70px !important;
+  padding: 10px;
+  margin: 0 auto;
+
+
+  .navbar-header .logo-wrapper {
+    position: absolute;
+    left: 50%;
+    margin-left: -90px;
+
+    .navbar-logo {
+      max-width: 135px;
+      margin-top: -13px;
+    }
+  }
+
+  .navbar-brand .fa-2x {
+    line-height: 20px ;
+  }
+
+  .avatar {
+    border-radius: 50px;
+    margin-top: 4px;
+    height: 45px;
+    width: 45px;
+    background-image: url("../img/avatar.jpg");
+    background-size: contain;
+  }
+}

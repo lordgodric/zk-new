@@ -1,0 +1,1 @@
+$(window).scroll(function(o){var l=0;l=$(this).scrollTop(),console.log("x ="+l/100),console.log("y ="+l/1),$(".l-header").css("background-position"," "+l/100+"%  "+l/10+"% ")});

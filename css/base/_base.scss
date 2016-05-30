@@ -1,0 +1,59 @@
+/* ===========================
+   Base
+   =========================== */
+
+body {
+}
+
+a {
+}
+
+.fa {
+  color: #444;
+}
+
+.btn {
+  border-radius: 0px;
+  background-color: $white;
+
+  &:hover {
+    background-color: #DBE2EF;
+  }
+}
+
+.btn:focus {
+  outline: none !important;
+}
+
+.form-control {
+
+}
+
+.page-header {
+  margin: 0;
+}
+
+textarea {
+//    height: 100%;
+    border-radius: 0px !important;
+}
+
+.nopadding {
+   padding: 0 !important;
+   margin: 0 !important;
+}
+
+.nopaddingright {
+  padding-right: 0 !important;
+}
+
+.nopaddingleft {
+  padding-left: 0 !important;
+}
+
+.btn-full-width {
+  width: 100%;
+}
+
+textarea {
+}

@@ -1,0 +1,30 @@
+.m-header-category-wrapper {
+
+
+  .e-category-line{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+
+    .e-category-item {
+      min-width: 25%;
+      min-height: 60px;
+      line-height: 60px;
+      border: 1px solid $btn-border-color;
+      // border-bottom: none;
+      // border-left: none;
+      flex-grow: 1;
+
+      @media (min-width: $screen-lg-min) {
+        min-width: 16.666%;
+      }
+
+
+    }
+  }
+
+  .e-category-first-line {
+    margin-top: 15px;
+
+  }
+}
