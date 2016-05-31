@@ -418,6 +418,9 @@ textarea {
 .btn-full-width {
   width: 100%; }
 
+.form-group {
+  border: none; }
+
 /* Layouts */
 /* ==|====================
    Layout/Constrained
@@ -439,6 +442,10 @@ textarea {
 /* ==|====================
    Layout/Nav
    ======================= */
+.l-nav {
+  border-radius: 0px;
+  border-bottom: 1px solid #ccc; }
+
 .l-header {
   position: relative;
   min-height: 400px;
@@ -446,6 +453,13 @@ textarea {
   background-image: url("../img/orange-min.jpg");
   background-size: cover;
   padding: 40px; }
+
+/* ==|====================
+   Layout/Footer
+   ======================= */
+.l-footer {
+  border-top: 1px solid #ccc;
+  background-color: #F6F6F6; }
 
 /* Modules */
 /* ==|====================
@@ -537,8 +551,9 @@ textarea {
 .m-header-category-wrapper .e-category-first-line {
   margin-top: 15px; }
 
-.m-main-wrapper {
-  display: flex; }
+.card-wrapper {
+  display: flex;
+  flex-wrap: wrap; }
 
 .limited-card .caption h3 {
   margin: 0px !important; }
@@ -550,3 +565,19 @@ textarea {
   align-items: center; }
   .card-footer p {
     margin: 0; }
+
+.modal .btn {
+  background-color: #fff;
+  border-color: #ccc;
+  color: #000; }
+  .modal .btn:active {
+    background-color: #fff;
+    color: #000;
+    border-color: #aaa; }
+
+#address .form-group .row:first-child {
+  margin-bottom: 5px; }
+#address .form-group .left-address-text {
+  line-height: 34px; }
+  #address .form-group .left-address-text p {
+    margin: 0px; }

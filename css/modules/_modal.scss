@@ -1,0 +1,26 @@
+.modal .btn {
+  background-color: #fff;
+  border-color: $btn-border-color;
+  color: #000;
+
+  &:active {
+    background-color: #fff;
+    color: #000;
+    border-color: $btn-border-color-active;
+  }
+}
+
+#address {
+  .form-group {
+    .row:first-child {
+      margin-bottom: 5px;
+    }
+    .left-address-text {
+      line-height: 34px;
+
+      p {
+        margin: 0px;
+      }
+    }
+  }
+}

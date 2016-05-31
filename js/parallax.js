@@ -1,11 +1,11 @@
 $(window).scroll(function(event) {
-  /* Act on the event */
+  // Set variable value at 0
   var wScroll = 0;
 
+  //
   wScroll = $(this).scrollTop();
-  console.log('x ='   + wScroll / 100 );
-  console.log('y ='  + wScroll / 1);
 
+  // Change background-position for .l-header background-image
   $('.l-header').css('background-position', ' ' + wScroll / 100 +'%  '+ wScroll / 7 +'% ');
 
 });
