@@ -1,1 +1,1 @@
-$(document).ready(function(){});
+$(document).ready(function(){$(window).scroll(function(){$(this).scrollTop()>100?$(".toSend").fadeIn():$(".toSend").fadeOut()}),$(".toSend").click(function(){return $("html, body").animate({scrollTop:0},400),!1})});

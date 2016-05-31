@@ -391,7 +391,7 @@ th {
   color: #444; }
 
 .fa-question {
-  color: orange; }
+  color: #E77E00; }
 
 .btn {
   border-radius: 0px;
@@ -423,6 +423,31 @@ textarea {
 
 .form-group {
   border: none; }
+
+.openMap, .toSend {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 1px solid #fff;
+  background-color: #E77E00;
+  right: 5%; }
+  .openMap:hover, .toSend:hover {
+    background-color: #E77E00;
+    border: 1px solid #999; }
+  .openMap .fa, .toSend .fa {
+    color: #fff; }
+
+.openMap {
+  bottom: 40px; }
+
+.toSend {
+  bottom: 110px; }
+  .toSend .fa {
+    margin-right: 3px; }
 
 /* Layouts */
 /* ==|====================

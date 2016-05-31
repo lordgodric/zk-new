@@ -13,7 +13,7 @@ a {
 }
 
 .fa-question {
-  color: orange;
+  color: #E77E00;
 }
 
 .btn {
@@ -64,4 +64,37 @@ textarea {
 
 .form-group {
   border: none;
+}
+
+.openMap, .toSend {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 1px solid #fff;
+  background-color: #E77E00;
+  right: 5%;
+
+  &:hover {
+    background-color: #E77E00;
+    border: 1px solid #999;
+
+  }
+  .fa {
+    color: #fff;
+  }
+}
+
+.openMap {
+  bottom: 40px;
+}
+
+.toSend {
+  bottom: 110px;
+  .fa {
+    margin-right: 3px;
+  }
 }

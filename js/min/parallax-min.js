@@ -1,1 +1,1 @@
-$(window).scroll(function(o){var s=0;s=$(this).scrollTop(),$(".l-header").css("background-position"," "+s/100+"%  "+s/7+"% ")});
+$(window).scroll(function(o){var s=0;s=$(this).scrollTop(),$(".l-header").css("background-position"," "+s/100+"%  "+s/7+"% "),$(".l-header").css("background-position"," "+s/100+"%  "+s/7+"% ")});

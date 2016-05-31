@@ -14,6 +14,10 @@
       border-left: none;
       flex-grow: 1;
 
+      &:hover {
+        // border: 1px solid #000;
+      }
+
       @media (min-width: $screen-lg-min) {
         min-width: 16.666%;
       }
