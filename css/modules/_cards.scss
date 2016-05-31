@@ -22,4 +22,12 @@
   p {
     margin: 0;
   }
+
+  .footer-btns {
+    display: flex;
+
+    .open-map-btn {
+      border-right: none;
+    }
+  }
 }

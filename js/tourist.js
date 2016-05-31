@@ -1,8 +1,10 @@
+var target1 = $('.m-header-category-wrapper');
+
 var steps = [{
   content: '<p>First look at this thing</p>',
   highlightTarget: true,
   nextButton: true,
-  target: $('.m-header-category-wrapper'),
+  target: $(target1),
   my: 'bottom center',
   at: 'top center'
 }, {
@@ -19,7 +21,4 @@ var tour = new Tourist.Tour({
   tipClass: 'Bootstrap',
   tipOptions:{ showEffect: 'slidein' }
 });
-
-// $('.help-btn').click(function(event) {
-  tour.start();
-// });
+tour.start();

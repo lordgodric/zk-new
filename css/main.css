@@ -390,6 +390,9 @@ th {
 .fa {
   color: #444; }
 
+.fa-question {
+  color: orange; }
+
 .btn {
   border-radius: 0px;
   background-color: #FFF; }
@@ -544,10 +547,12 @@ textarea {
     min-height: 60px;
     line-height: 60px;
     border: 1px solid #ccc;
+    border-bottom: none;
+    border-left: none;
     flex-grow: 1; }
     @media (min-width: 1200px) {
       .m-header-category-wrapper .e-category-line .e-category-item {
-        min-width: 12.555%; } }
+        min-width: 16.666%; } }
 .m-header-category-wrapper .e-category-first-line {
   margin-top: 15px; }
 
@@ -565,6 +570,10 @@ textarea {
   align-items: center; }
   .card-footer p {
     margin: 0; }
+  .card-footer .footer-btns {
+    display: flex; }
+    .card-footer .footer-btns .open-map-btn {
+      border-right: none; }
 
 .modal .btn {
   background-color: #fff;
