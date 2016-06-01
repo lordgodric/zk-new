@@ -1,0 +1,55 @@
+.help {
+  font-family:'Marck Script', cursive;
+  font-size: 24px;
+  position: absolute;
+}
+.arrow {
+  position: absolute;
+}
+
+.help1 {
+  position: absolute;
+  left: -65px;
+  top: -30px;
+  // height: 50px;
+  width: 100px;
+}
+
+.arrow1 {
+  top: 40px;
+  left:  -30px;
+  width: 33px;
+  height: 50px;
+  background-image: url("../img/curved_arrow_1.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.help2 {
+  left: -65px;
+  top: -40px;
+
+  .arrow2 {
+    position: absolute;
+    left:  30px;
+    width: 33px;
+    height: 50px;
+    background-image: url("../img/curved_arrow_1.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+}
+
+.help6 {
+  right: -60px;
+  top: -40px;
+}
+
+.arrow6 {
+  right: -30px;
+  width: 33px;
+  height: 50px;
+  background-image: url("../img/curved_arrow_2.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}

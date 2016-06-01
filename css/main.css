@@ -435,7 +435,7 @@ textarea {
   border-radius: 50%;
   border: 1px solid #fff;
   background-color: #FF9A00;
-  right: 5%; }
+  right: 3%; }
   .openMap:hover, .toSend:hover {
     background-color: #FD7014;
     border: 1px solid #999; }
@@ -517,7 +517,9 @@ textarea {
    ======================= */
 .l-footer {
   border-top: 1px solid #ccc;
-  background-color: #F6F6F6; }
+  min-height: 150px;
+  background-color: #626F59;
+  color: #fff; }
 
 /* Modules */
 /* ==|====================
@@ -552,8 +554,8 @@ textarea {
   @media (max-width: 767px) {
     .m-details-wrapper textarea {
       height: 280px; } }
-.m-details-wrapper .m-details-btn-wrapper .fa {
-  color: #686354; }
+.m-details-wrapper .m-details-btn-wrapper .btn:hover {
+  background-color: #F8F8F8; }
 @media (min-width: 1200px) {
   .m-details-wrapper .m-details-btn-wrapper .top-send-btn {
     padding-right: 1px; } }
@@ -632,11 +634,11 @@ textarea {
     display: flex; }
     .card-footer .footer-btns .open-map-btn {
       border: none;
-      background-color: #0DA574; }
+      background-color: #626F59; }
       .card-footer .footer-btns .open-map-btn .fa {
         color: #fff; }
     .card-footer .footer-btns .card-details-btn {
-      background-color: #FF9A00;
+      background-color: #EE8903;
       border: none; }
       .card-footer .footer-btns .card-details-btn a {
         color: #fff; }
@@ -656,3 +658,50 @@ textarea {
   line-height: 34px; }
   #address .form-group .left-address-text p {
     margin: 0px; }
+
+.help {
+  font-family: 'Marck Script', cursive;
+  font-size: 24px;
+  position: absolute; }
+
+.arrow {
+  position: absolute; }
+
+.help1 {
+  position: absolute;
+  left: -65px;
+  top: -30px;
+  width: 100px; }
+
+.arrow1 {
+  top: 40px;
+  left: -30px;
+  width: 33px;
+  height: 50px;
+  background-image: url("../img/curved_arrow_1.png");
+  background-size: contain;
+  background-repeat: no-repeat; }
+
+.help2 {
+  left: -65px;
+  top: -40px; }
+  .help2 .arrow2 {
+    position: absolute;
+    left: 30px;
+    width: 33px;
+    height: 50px;
+    background-image: url("../img/curved_arrow_1.png");
+    background-size: contain;
+    background-repeat: no-repeat; }
+
+.help6 {
+  right: -60px;
+  top: -40px; }
+
+.arrow6 {
+  right: -30px;
+  width: 33px;
+  height: 50px;
+  background-image: url("../img/curved_arrow_2.png");
+  background-size: contain;
+  background-repeat: no-repeat; }

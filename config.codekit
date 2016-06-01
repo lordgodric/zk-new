@@ -344,6 +344,22 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/css\/modules\/_help.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/css\/modules\/_help.scss",
+		"outputAbbreviatedPath": "\/css\/css\/_help.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
 	"\/css\/modules\/_modal.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -392,6 +408,17 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/img\/1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 21133,
+		"inputAbbreviatedPath": "\/img\/1.png",
+		"outputAbbreviatedPath": "\/img\/1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/avatar.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -432,6 +459,39 @@
 		"initialSize": 28934,
 		"inputAbbreviatedPath": "\/img\/congruent_pentagon.png",
 		"outputAbbreviatedPath": "\/img\/congruent_pentagon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/curved_arrow_1 копія.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7044,
+		"inputAbbreviatedPath": "\/img\/curved_arrow_1 копія.png",
+		"outputAbbreviatedPath": "\/img\/curved_arrow_1 копія.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/curved_arrow_1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7044,
+		"inputAbbreviatedPath": "\/img\/curved_arrow_1.png",
+		"outputAbbreviatedPath": "\/img\/curved_arrow_1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/curved_arrow_2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10890,
+		"inputAbbreviatedPath": "\/img\/curved_arrow_2.png",
+		"outputAbbreviatedPath": "\/img\/curved_arrow_2.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

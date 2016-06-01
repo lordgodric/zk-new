@@ -16,14 +16,13 @@
 
   .m-details-btn-wrapper {
 
-    .fa {
-      color: #686354;
+    .btn:hover {
+      background-color: $grey;
     }
 
     .top-send-btn {
       @media (min-width: $screen-lg-min) {
         padding-right: 1px;
-
       }
 
       .btn {
@@ -41,16 +40,16 @@
           padding-right: 12px;
 
 
-
-
           @media (max-width: $screen-sm-min) {
             display: none;
-
           }
 
-
         }
+
+
       }
+
+
     }
 
     .bottom-details-wrapper {
