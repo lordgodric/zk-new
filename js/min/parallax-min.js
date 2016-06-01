@@ -1,1 +1,1 @@
-$(window).scroll(function(o){var e=0;e=$(this).scrollTop(),console.log(e),$(".l-header").css("background-position"," "+e/10+"%  "+e/7+"% "),$(".both-wrapper").css("bottom"," -"+.3*e+"px  "),alert(document.getElementById("").style.zIndex)});
+$(window).scroll(function(o){var s=0;s=$(this).scrollTop(),console.log(s),$(".l-header").css("background-position"," "+s/10+"%  "+s/7+"% "),$(".both-wrapper").css("bottom"," -"+.3*s+"px  ")});

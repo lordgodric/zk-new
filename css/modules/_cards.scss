@@ -4,7 +4,6 @@
 }
 
 .full-card {
-
 }
 
 .limited-card {
@@ -27,7 +26,21 @@
     display: flex;
 
     .open-map-btn {
-      border-right: none;
+      border: none;
+      background-color: $green;
+
+      .fa {
+        color: #fff;
+      }
+    }
+
+    .card-details-btn {
+      background-color: $orange;
+      border: none;
+
+      a {
+        color: #fff;
+      }
     }
   }
 }

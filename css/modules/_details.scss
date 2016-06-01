@@ -16,6 +16,10 @@
 
   .m-details-btn-wrapper {
 
+    .fa {
+      color: #686354;
+    }
+
     .top-send-btn {
       @media (min-width: $screen-lg-min) {
         padding-right: 1px;
@@ -23,6 +27,7 @@
       }
 
       .btn {
+        color: #686354;
         padding-bottom: 5px;
         display: flex;
         align-items: center;
@@ -71,9 +76,6 @@
           border-bottom: 1px solid $btn-border-color;
           border-top: none;
 
-        }
-        .fa {
-            color: #e7e7e7 ;
         }
       }
 
