@@ -403,7 +403,8 @@ th {
   outline: none !important; }
 
 .page-header {
-  margin: 0; }
+  margin: 0;
+  border: none; }
 
 textarea {
   border-radius: 0px !important; }
@@ -449,6 +450,31 @@ textarea {
   .toSend .fa {
     margin-right: 3px; }
 
+.image-preview-input {
+  position: relative;
+  overflow: hidden;
+  margin: 0px;
+  color: #333;
+  background-color: #fff;
+  border-color: #ccc; }
+
+.image-preview-input input[type=file] {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  cursor: pointer;
+  opacity: 0;
+  filter: alpha(opacity=0); }
+
+.image-preview-input-title {
+  margin-left: 2px; }
+
+.image-preview .popover {
+  left: 15px !important; }
+
 /* Layouts */
 /* ==|====================
    Layout/Constrained
@@ -465,7 +491,8 @@ textarea {
    Layout/Main
    ======================= */
 .l-main {
-  padding: 40px 0 40px 0; }
+  padding: 40px 0 40px 0;
+  box-shadow: 0px 2px 20px 2px grey inset; }
 
 /* ==|====================
    Layout/Nav
@@ -475,12 +502,15 @@ textarea {
   border-bottom: 1px solid #ccc; }
 
 .l-header {
-  position: relative;
   min-height: 400px;
   background-attachment: fixed;
   background-image: url("../img/orange-min.jpg");
   background-size: cover;
-  padding: 40px; }
+  padding: 40px;
+  margin-top: 70px;
+  overflow: hidden; }
+  .l-header .both-wrapper {
+    position: relative; }
 
 /* ==|====================
    Layout/Footer
@@ -555,6 +585,8 @@ textarea {
     .m-details-wrapper .m-details-btn-wrapper .bottom-details-wrapper .second-details-btn {
       border-bottom: 1px solid #ccc;
       border-top: none; } }
+  .m-details-wrapper .m-details-btn-wrapper .bottom-details-wrapper .second-details-btn .fa {
+    color: #e7e7e7; }
 .m-details-wrapper .m-details-btn-wrapper .bottom-details-wrapper .last-details-btn {
   border-top: 1px solid #ccc;
   border-bottom: 1px solid #ccc;

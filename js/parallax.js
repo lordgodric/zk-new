@@ -4,9 +4,12 @@ $(window).scroll(function(event) {
 
   //
   wScroll = $(this).scrollTop();
+  console.log(wScroll);
 
   // Change background-position for .l-header background-image
-  $('.l-header').css('background-position', ' ' + wScroll / 100 +'%  '+ wScroll / 7 +'% ');
-  $('.l-header').css('background-position', ' ' + wScroll / 100 +'%  '+ wScroll / 7 +'% ');
+  $('.l-header').css('background-position', ' ' + wScroll / 10 +'%  '+ wScroll / 7 +'% ');
+  $('.both-wrapper').css('bottom', ' -' + wScroll * 0.3 +'px  ');
+
+  alert(document.getElementById("").style.zIndex);
 
 });
