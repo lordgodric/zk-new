@@ -1,5 +1,6 @@
 .m-details-wrapper {
 //  margin: 0 auto 40px ;
+  margin-top: 20px;
 
   textarea {
     height: 140px;
@@ -39,11 +40,9 @@
           font-size: 24px;
           padding-right: 12px;
 
-
           @media (max-width: $screen-sm-min) {
             display: none;
           }
-
         }
 
 

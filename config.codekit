@@ -102,6 +102,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/css\/font-awesome.min.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/css\/font-awesome.min.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/css\/layout\/_constrained.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -408,13 +417,79 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/img\/1.png": {
+	"\/img\/arrow-help1.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 21133,
-		"inputAbbreviatedPath": "\/img\/1.png",
-		"outputAbbreviatedPath": "\/img\/1.png",
+		"initialSize": 19421,
+		"inputAbbreviatedPath": "\/img\/arrow-help1.png",
+		"outputAbbreviatedPath": "\/img\/arrow-help1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/arrow-help2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 19272,
+		"inputAbbreviatedPath": "\/img\/arrow-help2.png",
+		"outputAbbreviatedPath": "\/img\/arrow-help2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/arrow-help3.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 19836,
+		"inputAbbreviatedPath": "\/img\/arrow-help3.png",
+		"outputAbbreviatedPath": "\/img\/arrow-help3.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/arrow-help4.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 19721,
+		"inputAbbreviatedPath": "\/img\/arrow-help4.png",
+		"outputAbbreviatedPath": "\/img\/arrow-help4.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/arrow-help5.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 19004,
+		"inputAbbreviatedPath": "\/img\/arrow-help5.png",
+		"outputAbbreviatedPath": "\/img\/arrow-help5.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/arrow-help6.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 19105,
+		"inputAbbreviatedPath": "\/img\/arrow-help6.png",
+		"outputAbbreviatedPath": "\/img\/arrow-help6.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/arrow-hide.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 18988,
+		"inputAbbreviatedPath": "\/img\/arrow-hide.png",
+		"outputAbbreviatedPath": "\/img\/arrow-hide.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -430,134 +505,46 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/bg.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 281926,
-		"inputAbbreviatedPath": "\/img\/bg.jpg",
-		"outputAbbreviatedPath": "\/img\/bg.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/bg2.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1.15404e+06,
-		"inputAbbreviatedPath": "\/img\/bg2.jpg",
-		"outputAbbreviatedPath": "\/img\/bg2.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/congruent_pentagon.png": {
+	"\/img\/icons\/Calendar-40.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 28934,
-		"inputAbbreviatedPath": "\/img\/congruent_pentagon.png",
-		"outputAbbreviatedPath": "\/img\/congruent_pentagon.png",
+		"initialSize": 502,
+		"inputAbbreviatedPath": "\/img\/icons\/Calendar-40.png",
+		"outputAbbreviatedPath": "\/img\/icons\/Calendar-40.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/curved_arrow_1 копія.png": {
+	"\/img\/icons\/Camera-40.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 7044,
-		"inputAbbreviatedPath": "\/img\/curved_arrow_1 копія.png",
-		"outputAbbreviatedPath": "\/img\/curved_arrow_1 копія.png",
+		"initialSize": 861,
+		"inputAbbreviatedPath": "\/img\/icons\/Camera-40.png",
+		"outputAbbreviatedPath": "\/img\/icons\/Camera-40.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/curved_arrow_1.png": {
+	"\/img\/icons\/Marker-40.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 7044,
-		"inputAbbreviatedPath": "\/img\/curved_arrow_1.png",
-		"outputAbbreviatedPath": "\/img\/curved_arrow_1.png",
+		"initialSize": 895,
+		"inputAbbreviatedPath": "\/img\/icons\/Marker-40.png",
+		"outputAbbreviatedPath": "\/img\/icons\/Marker-40.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/curved_arrow_2.png": {
+	"\/img\/icons\/Plane-40.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 10890,
-		"inputAbbreviatedPath": "\/img\/curved_arrow_2.png",
-		"outputAbbreviatedPath": "\/img\/curved_arrow_2.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/DQKJ8BFT45.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 4.95199e+06,
-		"inputAbbreviatedPath": "\/img\/DQKJ8BFT45.jpg",
-		"outputAbbreviatedPath": "\/img\/DQKJ8BFT45.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/giftly.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 5664,
-		"inputAbbreviatedPath": "\/img\/giftly.png",
-		"outputAbbreviatedPath": "\/img\/giftly.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/hand.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 812047,
-		"inputAbbreviatedPath": "\/img\/hand.jpg",
-		"outputAbbreviatedPath": "\/img\/hand.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/JUAJP1KWOW-min.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 671458,
-		"inputAbbreviatedPath": "\/img\/JUAJP1KWOW-min.jpg",
-		"outputAbbreviatedPath": "\/img\/JUAJP1KWOW-min.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/JUAJP1KWOW.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1.23126e+06,
-		"inputAbbreviatedPath": "\/img\/JUAJP1KWOW.jpg",
-		"outputAbbreviatedPath": "\/img\/JUAJP1KWOW.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/MYRKEUABZY.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 4.22276e+06,
-		"inputAbbreviatedPath": "\/img\/MYRKEUABZY.jpg",
-		"outputAbbreviatedPath": "\/img\/MYRKEUABZY.jpg",
+		"initialSize": 933,
+		"inputAbbreviatedPath": "\/img\/icons\/Plane-40.png",
+		"outputAbbreviatedPath": "\/img\/icons\/Plane-40.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -569,17 +556,6 @@
 		"initialSize": 211229,
 		"inputAbbreviatedPath": "\/img\/orange-min.jpg",
 		"outputAbbreviatedPath": "\/img\/orange-min.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/orange.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1.76221e+06,
-		"inputAbbreviatedPath": "\/img\/orange.jpg",
-		"outputAbbreviatedPath": "\/img\/orange.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

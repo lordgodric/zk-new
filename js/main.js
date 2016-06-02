@@ -15,18 +15,6 @@ var width;
  		return false;
  	});
 
-  // $( window ).resize(function() {
-  //   width = $(window).width();
-  //   var help  = true;
-  //   if (width < 768 ) {
-  //     width = false;
-  //   } else {
-  //     width == true;
-  //   }
-  // });
-
-  
-
   $(document).on('click', '#close-preview', function(){
       $('.image-preview').popover('hide');
       // Hover befor close the preview

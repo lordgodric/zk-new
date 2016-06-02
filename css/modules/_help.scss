@@ -3,53 +3,98 @@
   font-size: 24px;
   position: absolute;
 }
+
 .arrow {
   position: absolute;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .help1 {
   position: absolute;
   left: -65px;
   top: -30px;
-  // height: 50px;
   width: 100px;
 }
 
 .arrow1 {
   top: 40px;
-  left:  -30px;
-  width: 33px;
+  left: -40px;
+  width: 50px;
   height: 50px;
-  background-image: url("../img/curved_arrow_1.png");
-  background-size: contain;
-  background-repeat: no-repeat;
+  background-image: url("../img/arrow-help1.png");
 }
 
 .help2 {
   left: -65px;
   top: -40px;
+}
+.arrow2 {
+  position: absolute;
+  left:  -40px;
+  width: 50px;
+  height: 50px;
+  background-image: url("../img/arrow-help2.png");
+}
 
-  .arrow2 {
-    position: absolute;
-    left:  30px;
-    width: 33px;
-    height: 50px;
-    background-image: url("../img/curved_arrow_1.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-  }
+.help3 {
+  left: -250px;
+  top: -40px;
+}
+.arrow3 {
+  position: absolute;
+  top: -20px;
+  left: -60px;
+  width: 70px;
+  height: 300px;
+  background-image: url("../img/arrow-help3.png");
+}
+
+.help4 {
+  right: -180px;
+  top: 110px;
+}
+.arrow4 {
+  position: absolute;
+  right: -40px;
+  top: 125px;
+  width: 200px;
+  height: 300px;
+  background-image: url("../img/arrow-help4.png");
+}
+
+.help5 {
+  top: 40px;
+  right: -180px;
+}
+.arrow5 {
+  position: absolute;
+  right: -60px;
+  width: 70px;
+  height: 300px;
+  background-image: url("../img/arrow-help5.png");
 }
 
 .help6 {
   right: -60px;
   top: -40px;
 }
-
 .arrow6 {
   right: -30px;
   width: 33px;
   height: 50px;
-  background-image: url("../img/curved_arrow_2.png");
-  background-size: contain;
-  background-repeat: no-repeat;
+  background-image: url("../img/arrow-help6.png");
+}
+
+.help-hide {
+  top: 30px;
+  left: 230px;
+  color: #333;
+}
+.arrow-hide {
+  top: 25px;
+  left: 150px;
+  width: 70px;
+  height: 50px;
+  background-image: url("../img/arrow-hide.png");
 }

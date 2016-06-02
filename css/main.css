@@ -545,58 +545,60 @@ textarea {
     background-image: url("../img/avatar.jpg");
     background-size: contain; }
 
-.m-details-wrapper textarea {
-  height: 140px;
-  resize: none; }
-  @media (max-width: 991px) {
-    .m-details-wrapper textarea {
-      height: 280px; } }
-  @media (max-width: 767px) {
-    .m-details-wrapper textarea {
-      height: 280px; } }
-.m-details-wrapper .m-details-btn-wrapper .btn:hover {
-  background-color: #F8F8F8; }
-@media (min-width: 1200px) {
-  .m-details-wrapper .m-details-btn-wrapper .top-send-btn {
-    padding-right: 1px; } }
-.m-details-wrapper .m-details-btn-wrapper .top-send-btn .btn {
-  color: #686354;
-  padding-bottom: 5px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 70px;
-  border-top: 1px solid #ccc;
-  border-right: 1px solid #ccc; }
-  .m-details-wrapper .m-details-btn-wrapper .top-send-btn .btn .send {
-    font-size: 24px;
-    padding-right: 12px; }
-    @media (max-width: 768px) {
-      .m-details-wrapper .m-details-btn-wrapper .top-send-btn .btn .send {
-        display: none; } }
-.m-details-wrapper .m-details-btn-wrapper .bottom-details-wrapper .details-btn {
-  height: 70px;
-  line-height: 70px; }
-  .m-details-wrapper .m-details-btn-wrapper .bottom-details-wrapper .details-btn:first-child {
+.m-details-wrapper {
+  margin-top: 20px; }
+  .m-details-wrapper textarea {
+    height: 140px;
+    resize: none; }
+    @media (max-width: 991px) {
+      .m-details-wrapper textarea {
+        height: 280px; } }
+    @media (max-width: 767px) {
+      .m-details-wrapper textarea {
+        height: 280px; } }
+  .m-details-wrapper .m-details-btn-wrapper .btn:hover {
+    background-color: #F8F8F8; }
+  @media (min-width: 1200px) {
+    .m-details-wrapper .m-details-btn-wrapper .top-send-btn {
+      padding-right: 1px; } }
+  .m-details-wrapper .m-details-btn-wrapper .top-send-btn .btn {
+    color: #686354;
+    padding-bottom: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    border-top: 1px solid #ccc;
+    border-right: 1px solid #ccc; }
+    .m-details-wrapper .m-details-btn-wrapper .top-send-btn .btn .send {
+      font-size: 24px;
+      padding-right: 12px; }
+      @media (max-width: 768px) {
+        .m-details-wrapper .m-details-btn-wrapper .top-send-btn .btn .send {
+          display: none; } }
+  .m-details-wrapper .m-details-btn-wrapper .bottom-details-wrapper .details-btn {
+    height: 70px;
+    line-height: 70px; }
+    .m-details-wrapper .m-details-btn-wrapper .bottom-details-wrapper .details-btn:first-child {
+      border: 1px solid #ccc;
+      border-left: none; }
+      @media (max-width: 991px) {
+        .m-details-wrapper .m-details-btn-wrapper .bottom-details-wrapper .details-btn:first-child {
+          border-bottom: 1px solid #ccc; } }
+  .m-details-wrapper .m-details-btn-wrapper .bottom-details-wrapper .second-details-btn {
     border: 1px solid #ccc;
     border-left: none; }
     @media (max-width: 991px) {
-      .m-details-wrapper .m-details-btn-wrapper .bottom-details-wrapper .details-btn:first-child {
-        border-bottom: 1px solid #ccc; } }
-.m-details-wrapper .m-details-btn-wrapper .bottom-details-wrapper .second-details-btn {
-  border: 1px solid #ccc;
-  border-left: none; }
-  @media (max-width: 991px) {
-    .m-details-wrapper .m-details-btn-wrapper .bottom-details-wrapper .second-details-btn {
-      border-bottom: 1px solid #ccc;
-      border-top: none; } }
-.m-details-wrapper .m-details-btn-wrapper .bottom-details-wrapper .last-details-btn {
-  border-top: 1px solid #ccc;
-  border-bottom: 1px solid #ccc;
-  border-right: 1px solid #ccc; }
-  @media (max-width: 991px) {
-    .m-details-wrapper .m-details-btn-wrapper .bottom-details-wrapper .last-details-btn {
-      border-top: none; } }
+      .m-details-wrapper .m-details-btn-wrapper .bottom-details-wrapper .second-details-btn {
+        border-bottom: 1px solid #ccc;
+        border-top: none; } }
+  .m-details-wrapper .m-details-btn-wrapper .bottom-details-wrapper .last-details-btn {
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    border-right: 1px solid #ccc; }
+    @media (max-width: 991px) {
+      .m-details-wrapper .m-details-btn-wrapper .bottom-details-wrapper .last-details-btn {
+        border-top: none; } }
 
 .m-header-category-wrapper .e-category-line {
   display: flex;
@@ -665,7 +667,9 @@ textarea {
   position: absolute; }
 
 .arrow {
-  position: absolute; }
+  position: absolute;
+  background-size: contain;
+  background-repeat: no-repeat; }
 
 .help1 {
   position: absolute;
@@ -675,24 +679,56 @@ textarea {
 
 .arrow1 {
   top: 40px;
-  left: -30px;
-  width: 33px;
+  left: -40px;
+  width: 50px;
   height: 50px;
-  background-image: url("../img/curved_arrow_1.png");
-  background-size: contain;
-  background-repeat: no-repeat; }
+  background-image: url("../img/arrow-help1.png"); }
 
 .help2 {
   left: -65px;
   top: -40px; }
-  .help2 .arrow2 {
-    position: absolute;
-    left: 30px;
-    width: 33px;
-    height: 50px;
-    background-image: url("../img/curved_arrow_1.png");
-    background-size: contain;
-    background-repeat: no-repeat; }
+
+.arrow2 {
+  position: absolute;
+  left: -40px;
+  width: 50px;
+  height: 50px;
+  background-image: url("../img/arrow-help2.png"); }
+
+.help3 {
+  left: -250px;
+  top: -40px; }
+
+.arrow3 {
+  position: absolute;
+  top: -20px;
+  left: -60px;
+  width: 70px;
+  height: 300px;
+  background-image: url("../img/arrow-help3.png"); }
+
+.help4 {
+  right: -180px;
+  top: 110px; }
+
+.arrow4 {
+  position: absolute;
+  right: -40px;
+  top: 125px;
+  width: 200px;
+  height: 300px;
+  background-image: url("../img/arrow-help4.png"); }
+
+.help5 {
+  top: 40px;
+  right: -180px; }
+
+.arrow5 {
+  position: absolute;
+  right: -60px;
+  width: 70px;
+  height: 300px;
+  background-image: url("../img/arrow-help5.png"); }
 
 .help6 {
   right: -60px;
@@ -702,6 +738,16 @@ textarea {
   right: -30px;
   width: 33px;
   height: 50px;
-  background-image: url("../img/curved_arrow_2.png");
-  background-size: contain;
-  background-repeat: no-repeat; }
+  background-image: url("../img/arrow-help6.png"); }
+
+.help-hide {
+  top: 30px;
+  left: 230px;
+  color: #333; }
+
+.arrow-hide {
+  top: 25px;
+  left: 150px;
+  width: 70px;
+  height: 50px;
+  background-image: url("../img/arrow-hide.png"); }
