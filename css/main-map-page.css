@@ -432,8 +432,7 @@ textarea {
   height: 50px;
   border-radius: 50%;
   border: 1px solid #fff;
-  background-color: #FF9A00;
-  right: 3%; }
+  background-color: #FF9A00; }
   .openMap:hover, .toSend:hover {
     background-color: #FD7014;
     border: 1px solid #999; }
@@ -441,10 +440,12 @@ textarea {
     color: #fff; }
 
 .openMap {
-  bottom: 40px; }
+  bottom: 40px;
+  right: 20px; }
 
 .toSend {
-  bottom: 110px; }
+  bottom: 40px;
+  right: 80px; }
   .toSend .fa {
     margin-right: 3px; }
 
