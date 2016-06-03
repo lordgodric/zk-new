@@ -394,7 +394,7 @@ th {
   color: #E77E00; }
 
 .btn {
-  border-radius: 0px;
+  border-radius: 0;
   background-color: #FFF; }
 
 .btn:focus {
@@ -405,7 +405,7 @@ th {
   border: none; }
 
 textarea {
-  border-radius: 0px !important; }
+  border-radius: 0 !important; }
 
 .nopadding {
   padding: 0 !important;
@@ -423,7 +423,8 @@ textarea {
 .form-group {
   border: none; }
 
-.openMap, .toSend {
+.openMap,
+.toSend {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -433,10 +434,12 @@ textarea {
   border-radius: 50%;
   border: 1px solid #fff;
   background-color: #FF9A00; }
-  .openMap:hover, .toSend:hover {
+  .openMap:hover,
+  .toSend:hover {
     background-color: #FD7014;
     border: 1px solid #999; }
-  .openMap .fa, .toSend .fa {
+  .openMap .fa,
+  .toSend .fa {
     color: #fff; }
 
 .openMap {
@@ -444,15 +447,14 @@ textarea {
   right: 20px; }
 
 .toSend {
+  visibility: hidden;
   bottom: 40px;
   right: 80px; }
-  .toSend .fa {
-    margin-right: 3px; }
 
 .image-preview-input {
   position: relative;
   overflow: hidden;
-  margin: 0px;
+  margin: 0;
   color: #333;
   background-color: #fff;
   border-color: #ccc; }
@@ -486,6 +488,10 @@ textarea {
 /* ==|====================
    Layout/Header
    ======================= */
+@media (max-width: 768px) {
+  .l-header {
+    min-height: 700px; } }
+
 /* ==|====================
    Layout/Main
    ======================= */
@@ -566,8 +572,8 @@ textarea {
     background-size: cover; }
     @media (max-width: 768px) {
       .m-details-wrapper .m-details-btn-wrapper .icon {
-        height: 30px;
-        width: 30px; } }
+        height: 25px;
+        width: 25px; } }
   .m-details-wrapper .m-details-btn-wrapper .btn:hover {
     background-color: #F8F8F8; }
   @media (min-width: 1200px) {
@@ -666,6 +672,14 @@ textarea {
   display: flex;
   justify-content: space-between;
   align-items: center; }
+  @media (max-width: 450px) {
+    .card-footer {
+      flex-direction: column;
+      height: 100%; } }
+  @media (max-width: 991px) and (min-width: 768px) {
+    .card-footer {
+      flex-direction: column;
+      height: 100%; } }
   .card-footer p {
     margin: 0; }
   .card-footer .footer-btns {

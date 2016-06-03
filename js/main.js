@@ -17,14 +17,11 @@ $(document).ready(function() {
         return false;
     });
 
+    // Toggle help hints
     $('.help-btn').click(function(event) {
       //Click help-btn and toggle help hints
-      $('.arrow').toggle(function() {
-        /* Stuff to do every *odd* time the element is clicked */
-        
-      }, function() {
-        /* Stuff to do every *even* time the element is clicked */
-      });
+      $('.arrow').toggle();
+      $('.help').toggle();
     });
 
 

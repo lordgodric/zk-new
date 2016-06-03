@@ -6,4 +6,8 @@
   // background-image: url("../img/giftly.png");
   // padding: 40px;
 
+  @media (max-width: $screen-sm-min) {
+      min-height: 700px;
+  }
+
 }

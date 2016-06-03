@@ -394,7 +394,7 @@ th {
   color: #E77E00; }
 
 .btn {
-  border-radius: 0px;
+  border-radius: 0;
   background-color: #FFF; }
 
 .btn:focus {
@@ -405,7 +405,7 @@ th {
   border: none; }
 
 textarea {
-  border-radius: 0px !important; }
+  border-radius: 0 !important; }
 
 .nopadding {
   padding: 0 !important;
@@ -423,7 +423,8 @@ textarea {
 .form-group {
   border: none; }
 
-.openMap, .toSend {
+.openMap,
+.toSend {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -433,10 +434,12 @@ textarea {
   border-radius: 50%;
   border: 1px solid #fff;
   background-color: #FF9A00; }
-  .openMap:hover, .toSend:hover {
+  .openMap:hover,
+  .toSend:hover {
     background-color: #FD7014;
     border: 1px solid #999; }
-  .openMap .fa, .toSend .fa {
+  .openMap .fa,
+  .toSend .fa {
     color: #fff; }
 
 .openMap {
@@ -444,15 +447,14 @@ textarea {
   right: 20px; }
 
 .toSend {
+  visibility: hidden;
   bottom: 40px;
   right: 80px; }
-  .toSend .fa {
-    margin-right: 3px; }
 
 .image-preview-input {
   position: relative;
   overflow: hidden;
-  margin: 0px;
+  margin: 0;
   color: #333;
   background-color: #fff;
   border-color: #ccc; }
