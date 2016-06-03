@@ -4,8 +4,10 @@ $(document).ready(function() {
     $(window).scroll(function() {
         if (($(this).scrollTop() > 300)) {
             $('.toSend').fadeIn();
+            $('.toSend').css('visibility', 'visible');
         } else {
             $('.toSend').fadeOut();
+            $('.toSend').css('visibility', 'hidden');
         }
     });
 
@@ -16,6 +18,8 @@ $(document).ready(function() {
         }, 400);
         return false;
     });
+
+    var firstVisit = 
 
     // Toggle help hints
     $('.help-btn').click(function(event) {
