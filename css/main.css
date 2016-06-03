@@ -556,13 +556,25 @@ textarea {
     @media (max-width: 767px) {
       .m-details-wrapper textarea {
         height: 280px; } }
+  .m-details-wrapper .m-details-btn-wrapper .btn {
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+  .m-details-wrapper .m-details-btn-wrapper .icon {
+    height: 40px;
+    width: 40px;
+    background-size: cover; }
+    @media (max-width: 768px) {
+      .m-details-wrapper .m-details-btn-wrapper .icon {
+        height: 30px;
+        width: 30px; } }
   .m-details-wrapper .m-details-btn-wrapper .btn:hover {
     background-color: #F8F8F8; }
   @media (min-width: 1200px) {
     .m-details-wrapper .m-details-btn-wrapper .top-send-btn {
       padding-right: 1px; } }
   .m-details-wrapper .m-details-btn-wrapper .top-send-btn .btn {
-    color: #686354;
+    color: #000;
     padding-bottom: 5px;
     display: flex;
     align-items: center;
@@ -576,6 +588,14 @@ textarea {
       @media (max-width: 768px) {
         .m-details-wrapper .m-details-btn-wrapper .top-send-btn .btn .send {
           display: none; } }
+    .m-details-wrapper .m-details-btn-wrapper .top-send-btn .btn .paper-plane-icon {
+      background-image: url("../img/icons/Plane-40.png"); }
+  .m-details-wrapper .m-details-btn-wrapper .bottom-details-wrapper .map-icon {
+    background-image: url("../img/icons/Marker-40.png"); }
+  .m-details-wrapper .m-details-btn-wrapper .bottom-details-wrapper .calendar-icon {
+    background-image: url("../img/icons/Calendar-40.png"); }
+  .m-details-wrapper .m-details-btn-wrapper .bottom-details-wrapper .upload-icon {
+    background-image: url("../img/icons/Camera-40.png"); }
   .m-details-wrapper .m-details-btn-wrapper .bottom-details-wrapper .details-btn {
     height: 70px;
     line-height: 70px; }

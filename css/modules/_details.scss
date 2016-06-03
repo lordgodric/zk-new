@@ -1,91 +1,95 @@
 .m-details-wrapper {
-//  margin: 0 auto 40px ;
-  margin-top: 20px;
-
-  textarea {
-    height: 140px;
-    resize: none;
-
-    @media (max-width: $screen-sm-max) {
-      height: 280px;
-    }
-
-    @media (max-width: $screen-xs-max) {
-      height: 280px;
-    }
-  }
-
-  .m-details-btn-wrapper {
-
-    .btn:hover {
-      background-color: $grey;
-    }
-
-    .top-send-btn {
-      @media (min-width: $screen-lg-min) {
-        padding-right: 1px;
-      }
-
-      .btn {
-        color: #686354;
-        padding-bottom: 5px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        height: 70px;
-        border-top: 1px solid $btn-border-color;
-        border-right: 1px solid $btn-border-color;
-
-        .send {
-          font-size: 24px;
-          padding-right: 12px;
-
-          @media (max-width: $screen-sm-min) {
-            display: none;
-          }
-        }
-
-
-      }
-
-
-    }
-
-    .bottom-details-wrapper {
-      .details-btn {
-        height: 70px;
-        line-height: 70px;
-
-        &:first-child {
-          border: 1px solid $btn-border-color;
-          border-left: none;
-
-          @media (max-width: $screen-sm-max) {
-            border-bottom: 1px solid $btn-border-color;
-          }
-        }
-      }
-
-      .second-details-btn {
-        border: 1px solid $btn-border-color;
-        border-left: none;
-
+    margin-top: 20px;
+    textarea {
+        height: 140px;
+        resize: none;
         @media (max-width: $screen-sm-max) {
-          border-bottom: 1px solid $btn-border-color;
-          border-top: none;
-
+            height: 280px;
         }
-      }
-
-      .last-details-btn {
-        border-top: 1px solid $btn-border-color;
-        border-bottom: 1px solid $btn-border-color;
-        border-right: 1px solid $btn-border-color;
-
-        @media (max-width: $screen-sm-max) {
-          border-top: none;
+        @media (max-width: $screen-xs-max) {
+            height: 280px;
         }
-      }
     }
-  }
+    .m-details-btn-wrapper {
+        .btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .icon {
+            height: 40px;
+            width: 40px;
+            background-size: cover;
+            @media (max-width: $screen-sm-min) {
+                height: 30px;
+                width: 30px;
+            }
+        }
+        .btn:hover {
+            background-color: $grey;
+        }
+        .top-send-btn {
+            @media (min-width: $screen-lg-min) {
+                padding-right: 1px;
+            }
+            .btn {
+                color: #000;
+                padding-bottom: 5px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                height: 70px;
+                border-top: 1px solid $btn-border-color;
+                border-right: 1px solid $btn-border-color;
+                .send {
+                    font-size: 24px;
+                    padding-right: 12px;
+                    @media (max-width: $screen-sm-min) {
+                        display: none;
+                    }
+                }
+                .paper-plane-icon {
+                    background-image: url("../img/icons/Plane-40.png");
+                }
+            }
+        }
+        .bottom-details-wrapper {
+            .map-icon {
+                background-image: url("../img/icons/Marker-40.png");
+            }
+            .calendar-icon {
+                background-image: url("../img/icons/Calendar-40.png");
+            }
+            .upload-icon {
+                background-image: url("../img/icons/Camera-40.png");
+            }
+            .details-btn {
+                height: 70px;
+                line-height: 70px;
+                &:first-child {
+                    border: 1px solid $btn-border-color;
+                    border-left: none;
+                    @media (max-width: $screen-sm-max) {
+                        border-bottom: 1px solid $btn-border-color;
+                    }
+                }
+            }
+            .second-details-btn {
+                border: 1px solid $btn-border-color;
+                border-left: none;
+                @media (max-width: $screen-sm-max) {
+                    border-bottom: 1px solid $btn-border-color;
+                    border-top: none;
+                }
+            }
+            .last-details-btn {
+                border-top: 1px solid $btn-border-color;
+                border-bottom: 1px solid $btn-border-color;
+                border-right: 1px solid $btn-border-color;
+                @media (max-width: $screen-sm-max) {
+                    border-top: none;
+                }
+            }
+        }
+    }
 }
