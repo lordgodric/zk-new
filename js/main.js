@@ -17,6 +17,19 @@ $(document).ready(function() {
         return false;
     });
 
+    $('.help-btn').click(function(event) {
+      //Click help-btn and toggle help hints
+      $('.arrow').toggle(function() {
+        /* Stuff to do every *odd* time the element is clicked */
+        
+      }, function() {
+        /* Stuff to do every *even* time the element is clicked */
+      });
+    });
+
+
+
+    // Code for image upload effects
     $(document).on('click', '#close-preview', function() {
         $('.image-preview').popover('hide');
         // Hover befor close the preview

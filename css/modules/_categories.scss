@@ -1,34 +1,43 @@
 .m-header-category-wrapper {
+    .e-category-line {
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        .e-category-item {
+            min-width: 25%;
+            min-height: 60px;
+            line-height: 60px;
+            border: 1px solid $btn-border-color;
+            border-bottom: none;
+            border-left: none;
+            flex-grow: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            &:hover {
+                background-color: $grey;
+            }
+            @media (min-width: $screen-lg-min) {
+                min-width: 16.666%;
+            }
 
-  .e-category-line{
-    display: flex;
-    justify-content: flex-start;
-    flex-wrap: wrap;
-
-    .e-category-item {
-      min-width: 25%;
-      min-height: 60px;
-      line-height: 60px;
-      border: 1px solid $btn-border-color;
-      border-bottom: none;
-      border-left: none;
-      flex-grow: 1;
-
-      &:hover {
-        // border: 1px solid #000;
-      }
-
-      @media (min-width: $screen-lg-min) {
-        min-width: 16.666%;
-      }
-
-
+            .icon {
+                display: block;
+                height: 40px;
+                width: 40px;
+                background-size: cover;
+                @media (max-width: $screen-sm-min) {
+                    height: 30px;
+                    width: 30px;
+                }
+            }
+            .maintenance-icon {
+                background-image: url("../img/icons/Maintenance-40.png");
+                //background-color: red;
+            }
+        }
     }
-  }
-
-  .e-category-first-line {
-    margin-top: 15px;
-
-
-  }
+    .e-category-first-line {
+        margin-top: 15px;
+    }
 }

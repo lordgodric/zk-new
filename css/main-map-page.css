@@ -396,8 +396,6 @@ th {
 .btn {
   border-radius: 0px;
   background-color: #FFF; }
-  .btn:hover {
-    background-color: #DBE2EF; }
 
 .btn:focus {
   outline: none !important; }

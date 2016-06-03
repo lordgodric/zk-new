@@ -396,8 +396,6 @@ th {
 .btn {
   border-radius: 0px;
   background-color: #FFF; }
-  .btn:hover {
-    background-color: #DBE2EF; }
 
 .btn:focus {
   outline: none !important; }
@@ -518,8 +516,9 @@ textarea {
 .l-footer {
   border-top: 1px solid #ccc;
   min-height: 150px;
-  background-color: #626F59;
-  color: #fff; }
+  background-color: #626F59; }
+  .l-footer * {
+    color: #fff; }
 
 /* Modules */
 /* ==|====================
@@ -631,10 +630,26 @@ textarea {
     border: 1px solid #ccc;
     border-bottom: none;
     border-left: none;
-    flex-grow: 1; }
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    .m-header-category-wrapper .e-category-line .e-category-item:hover {
+      background-color: #F8F8F8; }
     @media (min-width: 1200px) {
       .m-header-category-wrapper .e-category-line .e-category-item {
         min-width: 16.666%; } }
+    .m-header-category-wrapper .e-category-line .e-category-item .icon {
+      display: block;
+      height: 40px;
+      width: 40px;
+      background-size: cover; }
+      @media (max-width: 768px) {
+        .m-header-category-wrapper .e-category-line .e-category-item .icon {
+          height: 30px;
+          width: 30px; } }
+    .m-header-category-wrapper .e-category-line .e-category-item .maintenance-icon {
+      background-image: url("../img/icons/Maintenance-40.png"); }
 .m-header-category-wrapper .e-category-first-line {
   margin-top: 15px; }
 

@@ -527,6 +527,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/icons\/Maintenance-40.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1173,
+		"inputAbbreviatedPath": "\/img\/icons\/Maintenance-40.png",
+		"outputAbbreviatedPath": "\/img\/icons\/Maintenance-40.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/icons\/Marker-40.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -534,6 +545,17 @@
 		"initialSize": 895,
 		"inputAbbreviatedPath": "\/img\/icons\/Marker-40.png",
 		"outputAbbreviatedPath": "\/img\/icons\/Marker-40.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/icons\/Piping-40.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 671,
+		"inputAbbreviatedPath": "\/img\/icons\/Piping-40.png",
+		"outputAbbreviatedPath": "\/img\/icons\/Piping-40.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

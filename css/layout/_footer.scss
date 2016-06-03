@@ -6,5 +6,8 @@
   border-top: 1px solid #ccc;
   min-height: 150px;
   background-color: $green;
-  color: #fff;
+
+  * {
+    color: #fff;
+  }
 }
