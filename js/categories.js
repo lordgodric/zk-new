@@ -2,8 +2,8 @@ $(document).ready(function() {
    // Stuff to do as soon as the DOM is ready
 
    $('.e-category-item').click(function(event) {
-     //  take value from field category-desc
-     var thisDesc = $(this).find($('.category-desc')).text();
+     //  take value from field category-hash
+     var thisDesc = $(this).find($('.category-hash')).text();
      // add thisDesc to current value in textarea
      // if textarea null add #hashtag without space before
      if (!$('.request-text').val()) {
@@ -16,11 +16,12 @@ $(document).ready(function() {
      $( ".request-text:contains('#asd')" ).css( "text-decoration", "underline" );
    });
 
-   $('.e-category-item').mouseover(function(event) {
+   $('.e-category-item').hover(function(event) {
      var thisDesc = $(this).find($('.category-desc')).text();
-     $('.output-category').html(thisDesc);
+    //  $(this).find($('.category-desc'))
+    //  $(this).find($('img'))
      $('.e-category-item').mouseleave(function(event) {
-       $('.output-category').html('');
+
      });
    });
 

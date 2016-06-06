@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="680px" height="470px" viewBox="0 0 680 470" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.7.2 (28276) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 3</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" font-size="149.61039" font-family="Helvetica" font-weight="normal">
+        <g id="Group-3" transform="translate(0.000000, -35.000000)">
+            <text id="Quick" fill="#FBBC05">
+                <tspan x="122.573052" y="309.5">Quick</tspan>
+            </text>
+            <text id="Cheap" fill="#EA4335">
+                <tspan x="239" y="474">Cheap</tspan>
+            </text>
+            <text id="Good" fill="#4285F4">
+                <tspan x="0" y="145">Good</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

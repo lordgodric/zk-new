@@ -496,7 +496,17 @@ textarea {
    ======================= */
 @media (max-width: 768px) {
   .l-header {
-    min-height: 700px; } }
+    padding: 0 !important; }
+    .l-header .both-wrapper {
+      padding: 0 !important; }
+      .l-header .both-wrapper .m-details-wrapper {
+        padding: 0 !important;
+        margin-top: 0; }
+      .l-header .both-wrapper .m-header-category-wrapper {
+        padding: 0 !important;
+        margin-top: 0; }
+        .l-header .both-wrapper .m-header-category-wrapper .e-category-line {
+          margin-top: 0; } }
 
 /* ==|====================
    Layout/Main
@@ -545,15 +555,26 @@ textarea {
     left: 50%;
     margin-top: -30px;
     line-height: 71px; }
+    @media (max-width: 991px) {
+      .navbar .navbar-header .logo-wrapper {
+        margin-left: -30px; } }
     .navbar .navbar-header .logo-wrapper .navbar-logo {
       display: inline;
-      max-width: 250px;
-      margin-left: -125px;
+      max-width: 150px;
+      margin-left: -95px;
       vertical-align: middle; }
       @media (max-width: 991px) {
         .navbar .navbar-header .logo-wrapper .navbar-logo {
           max-width: 150px;
-          margin-left: -75px; } }
+          margin-left: -100px; } }
+    .navbar .navbar-header .logo-wrapper .navbar-logo-desc {
+      display: inline;
+      margin: 22px 10px;
+      max-width: 55px; }
+      @media (max-width: 991px) {
+        .navbar .navbar-header .logo-wrapper .navbar-logo-desc {
+          max-width: 50px;
+          margin-left: 0px; } }
   .navbar .navbar-brand .fa-2x {
     line-height: 20px; }
   .navbar .avatar {
@@ -654,6 +675,16 @@ textarea {
     justify-content: center; }
     .m-header-category-wrapper .e-category-line .e-category-item:hover {
       background-color: #F8F8F8; }
+      .m-header-category-wrapper .e-category-line .e-category-item:hover img {
+        opacity: 0.2;
+        display: none;
+        transition: opacity; }
+      .m-header-category-wrapper .e-category-line .e-category-item:hover .category-desc {
+        display: inline-block;
+        min-width: 25%;
+        overflow: hidden;
+        line-height: 100%;
+        top: 100px; }
     @media (min-width: 1200px) {
       .m-header-category-wrapper .e-category-line .e-category-item {
         min-width: 16.666%; } }
@@ -664,7 +695,7 @@ textarea {
         .m-header-category-wrapper .e-category-line .e-category-item img {
           width: 20px;
           height: 20px; } }
-    .m-header-category-wrapper .e-category-line .e-category-item .category-desc {
+    .m-header-category-wrapper .e-category-line .e-category-item .category-hash, .m-header-category-wrapper .e-category-line .e-category-item .category-desc {
       display: none; }
     .m-header-category-wrapper .e-category-line .e-category-item .maintenance-icon {
       background-image: url("../img/icons/Maintenance-40.png"); }

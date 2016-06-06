@@ -3,11 +3,23 @@
    ======================= */
 
 .l-header {
-  // background-image: url("../img/giftly.png");
-  // padding: 40px;
-
   @media (max-width: $screen-sm-min) {
-      min-height: 700px;
-  }
+    padding: 0 !important;
 
+    .both-wrapper {
+        padding: 0 !important;
+
+      .m-details-wrapper {
+          padding: 0 !important;
+          margin-top: 0;
+      }
+      .m-header-category-wrapper {
+          padding: 0 !important;
+          margin-top: 0;
+        .e-category-line {
+            margin-top: 0;
+        }
+      }
+    }
+  }
 }

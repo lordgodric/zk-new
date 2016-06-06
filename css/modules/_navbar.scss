@@ -5,19 +5,30 @@
   .navbar-header .logo-wrapper {
     position: absolute;
     left: 50%;
-
     margin-top: -30px;
     line-height: 71px;
+    @media (max-width: $screen-sm-max) {
+      margin-left: -30px;
+    }
 
     .navbar-logo {
       display: inline;
-      max-width: 250px;
-      margin-left: -125px;
+      max-width: 150px;
+      margin-left: -95px;
       vertical-align: middle;
 
       @media (max-width: $screen-sm-max) {
         max-width: 150px;
-        margin-left: -75px;
+        margin-left: -100px;
+      }
+    }
+    .navbar-logo-desc {
+      display: inline;
+      margin: 22px 10px;
+      max-width: 55px;
+      @media (max-width: $screen-sm-max) {
+        max-width: 50px;
+        margin-left: 0px;
       }
     }
 
