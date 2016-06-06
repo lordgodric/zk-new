@@ -1,19 +1,27 @@
 .navbar {
-  // height: 70px !important;
   padding: 10px;
   margin: 0 auto;
-  // box-shadow: 0 7px 9px -7px rgba(0,0,0,0.4);
-
 
   .navbar-header .logo-wrapper {
     position: absolute;
     left: 50%;
-    margin-left: -90px;
+
+    margin-top: -30px;
+    line-height: 71px;
 
     .navbar-logo {
-      max-width: 135px;
-      margin-top: -13px;
+      display: inline;
+      max-width: 250px;
+      margin-left: -125px;
+      vertical-align: middle;
+
+      @media (max-width: $screen-sm-max) {
+        max-width: 150px;
+        margin-left: -75px;
+      }
     }
+
+
   }
 
   .navbar-brand .fa-2x {

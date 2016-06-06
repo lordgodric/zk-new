@@ -4,7 +4,7 @@ $(window).scroll(function(event) {
 
   //
   wScroll = $(this).scrollTop();
-  console.log(wScroll);
+  // console.log(wScroll);
 
   // Change background-position for .l-header background-image
   $('.l-header').css('background-position', ' ' + wScroll / 10 +'%  '+ wScroll / 7 +'% ');

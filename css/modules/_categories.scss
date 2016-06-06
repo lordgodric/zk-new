@@ -20,15 +20,16 @@
             @media (min-width: $screen-lg-min) {
                 min-width: 16.666%;
             }
-            .icon {
-                display: block;
-                width: 40px;
-                height: 40px;
-                background-size: cover;
+            img {
+                width: 25px;
+                height: 25px;
                 @media (max-width: $screen-sm-min) {
-                    width: 30px;
-                    height: 30px;
+                    width: 20px;
+                    height: 20px;
                 }
+            }
+            .category-desc {
+              display: none;
             }
             .maintenance-icon {
                 background-image: url('../img/icons/Maintenance-40.png');

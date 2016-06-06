@@ -9,6 +9,9 @@
         @media (max-width: $screen-xs-max) {
             height: 280px;
         }
+        &:focus {
+          //box-shadow: none !important;
+        }
     }
     .m-details-btn-wrapper {
         .btn {
@@ -29,16 +32,14 @@
             background-color: $grey;
         }
         .top-send-btn {
-            @media (min-width: $screen-lg-min) {
-                padding-right: 1px;
-            }
             .btn {
                 display: flex;
                 height: 70px;
                 padding-bottom: 5px;
                 color: #000;
-                border-top: 1px solid $btn-border-color;
-                border-right: 1px solid $btn-border-color;
+                border: 1px solid $btn-border-color;
+                border-bottom: none;
+                border-left: none;
                 align-items: center;
                 justify-content: center;
                 .send {
@@ -54,6 +55,10 @@
             }
         }
         .bottom-details-wrapper {
+            .btn {
+              line-height: 70px;
+              height: 70px;
+            }
             .map-icon {
                 background-image: url('../img/icons/Marker-40.png');
             }
@@ -63,18 +68,15 @@
             .upload-icon {
                 background-image: url('../img/icons/Camera-40.png');
             }
-            .details-btn {
-                line-height: 70px;
-                height: 70px;
-                &:first-child {
-                    border: 1px solid $btn-border-color;
-                    border-left: none;
-                    @media (max-width: $screen-sm-max) {
-                        border-bottom: 1px solid $btn-border-color;
-                    }
+            .map-details-btn {
+
+                border: 1px solid $btn-border-color;
+                border-left: none;
+                @media (max-width: $screen-sm-max) {
+                    border-bottom: 1px solid $btn-border-color;
                 }
             }
-            .second-details-btn {
+            .calendar-details-btn {
                 border: 1px solid $btn-border-color;
                 border-left: none;
                 @media (max-width: $screen-sm-max) {
@@ -82,7 +84,7 @@
                     border-bottom: 1px solid $btn-border-color;
                 }
             }
-            .last-details-btn {
+            .image-details-btn {
                 border-top: 1px solid $btn-border-color;
                 border-right: 1px solid $btn-border-color;
                 border-bottom: 1px solid $btn-border-color;

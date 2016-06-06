@@ -29,21 +29,21 @@ $(document).ready(function() {
         return false;
     });
 
+    // if this not first visit
     if ($.cookie('firstVisit')) {
+      // on click guest can show help hints
       toggleHintsOnClick();
       // $.removeCookie("firstVisit");
+    // if this first visit
     } else {
+      // show help hints
       $('.arrow').toggle();
       $('.help').toggle();
+      // on click hide help hints
       toggleHintsOnClick();
+      // and create cookie
       $.cookie('firstVisit', 'This first visit ');
     }
-
-
-
-
-
-
 
 
     // Code for image upload effects

@@ -478,6 +478,10 @@ textarea {
 .helps {
   position: relative; }
 
+/* Underline From Center */
+.border-green {
+  border-bottom: 5px solid #626F59 !important; }
+
 /* Layouts */
 body {
   display: flex; }

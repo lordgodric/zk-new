@@ -514,6 +514,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/icons\/Broom-40.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1118,
+		"inputAbbreviatedPath": "\/img\/icons\/Broom-40.png",
+		"outputAbbreviatedPath": "\/img\/icons\/Broom-40.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/icons\/Calendar-40.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -532,6 +543,50 @@
 		"initialSize": 861,
 		"inputAbbreviatedPath": "\/img\/icons\/Camera-40.png",
 		"outputAbbreviatedPath": "\/img\/icons\/Camera-40.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/icons\/Construction-Worker-40.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 964,
+		"inputAbbreviatedPath": "\/img\/icons\/Construction-Worker-40.png",
+		"outputAbbreviatedPath": "\/img\/icons\/Construction-Worker-40.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/icons\/Deciduous-Tree-40.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 930,
+		"inputAbbreviatedPath": "\/img\/icons\/Deciduous-Tree-40.png",
+		"outputAbbreviatedPath": "\/img\/icons\/Deciduous-Tree-40.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/icons\/Door-Opened-40.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 400,
+		"inputAbbreviatedPath": "\/img\/icons\/Door-Opened-40.png",
+		"outputAbbreviatedPath": "\/img\/icons\/Door-Opened-40.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/icons\/Laptop-40.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 649,
+		"inputAbbreviatedPath": "\/img\/icons\/Laptop-40.png",
+		"outputAbbreviatedPath": "\/img\/icons\/Laptop-40.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -558,6 +613,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/icons\/Metal-40.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 616,
+		"inputAbbreviatedPath": "\/img\/icons\/Metal-40.png",
+		"outputAbbreviatedPath": "\/img\/icons\/Metal-40.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/icons\/Piping-40.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -576,6 +642,28 @@
 		"initialSize": 933,
 		"inputAbbreviatedPath": "\/img\/icons\/Plane-40.png",
 		"outputAbbreviatedPath": "\/img\/icons\/Plane-40.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/icons\/Roller-Brush-40.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 440,
+		"inputAbbreviatedPath": "\/img\/icons\/Roller-Brush-40.png",
+		"outputAbbreviatedPath": "\/img\/icons\/Roller-Brush-40.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/icons\/Wi-Fi-40.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 845,
+		"inputAbbreviatedPath": "\/img\/icons\/Wi-Fi-40.png",
+		"outputAbbreviatedPath": "\/img\/icons\/Wi-Fi-40.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -622,6 +710,17 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/js\/categories.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/categories.js",
+		"outputAbbreviatedPath": "\/js\/min\/categories-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/js\/main.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -639,6 +738,17 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/min\/backbone-min.js",
 		"outputAbbreviatedPath": "\/js\/min\/min\/backbone-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/min\/categories-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/min\/categories-min.js",
+		"outputAbbreviatedPath": "\/js\/min\/min\/categories-min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
