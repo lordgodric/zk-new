@@ -17,12 +17,12 @@
             justify-content: center;
         }
         .icon {
-            height: 40px;
             width: 40px;
+            height: 40px;
             background-size: cover;
             @media (max-width: $screen-sm-min) {
-                height: 25px;
                 width: 25px;
+                height: 25px;
             }
         }
         .btn:hover {
@@ -33,14 +33,14 @@
                 padding-right: 1px;
             }
             .btn {
-                color: #000;
-                padding-bottom: 5px;
                 display: flex;
-                align-items: center;
-                justify-content: center;
                 height: 70px;
+                padding-bottom: 5px;
+                color: #000;
                 border-top: 1px solid $btn-border-color;
                 border-right: 1px solid $btn-border-color;
+                align-items: center;
+                justify-content: center;
                 .send {
                     font-size: 24px;
                     padding-right: 12px;
@@ -49,23 +49,23 @@
                     }
                 }
                 .paper-plane-icon {
-                    background-image: url("../img/icons/Plane-40.png");
+                    background-image: url('../img/icons/Plane-40.png');
                 }
             }
         }
         .bottom-details-wrapper {
             .map-icon {
-                background-image: url("../img/icons/Marker-40.png");
+                background-image: url('../img/icons/Marker-40.png');
             }
             .calendar-icon {
-                background-image: url("../img/icons/Calendar-40.png");
+                background-image: url('../img/icons/Calendar-40.png');
             }
             .upload-icon {
-                background-image: url("../img/icons/Camera-40.png");
+                background-image: url('../img/icons/Camera-40.png');
             }
             .details-btn {
-                height: 70px;
                 line-height: 70px;
+                height: 70px;
                 &:first-child {
                     border: 1px solid $btn-border-color;
                     border-left: none;
@@ -78,14 +78,14 @@
                 border: 1px solid $btn-border-color;
                 border-left: none;
                 @media (max-width: $screen-sm-max) {
-                    border-bottom: 1px solid $btn-border-color;
                     border-top: none;
+                    border-bottom: 1px solid $btn-border-color;
                 }
             }
             .last-details-btn {
                 border-top: 1px solid $btn-border-color;
-                border-bottom: 1px solid $btn-border-color;
                 border-right: 1px solid $btn-border-color;
+                border-bottom: 1px solid $btn-border-color;
                 @media (max-width: $screen-sm-max) {
                     border-top: none;
                 }

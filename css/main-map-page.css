@@ -391,7 +391,7 @@ th {
   color: #444; }
 
 .fa-question {
-  color: #E77E00; }
+  color: #e77e00; }
 
 .btn {
   border-radius: 0;
@@ -408,8 +408,8 @@ textarea {
   border-radius: 0 !important; }
 
 .nopadding {
-  padding: 0 !important;
-  margin: 0 !important; }
+  margin: 0 !important;
+  padding: 0 !important; }
 
 .nopaddingright {
   padding-right: 0 !important; }
@@ -425,47 +425,46 @@ textarea {
 
 .openMap,
 .toSend {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   position: fixed;
+  bottom: 20px;
+  display: flex;
   width: 50px;
   height: 50px;
-  border-radius: 50%;
   border: 1px solid #fff;
-  background-color: #FF9A00; }
+  border-radius: 50%;
+  background-color: #ff9a00;
+  align-items: center;
+  justify-content: center; }
   .openMap:hover,
   .toSend:hover {
-    background-color: #FD7014;
-    border: 1px solid #999; }
+    border: 1px solid #999;
+    background-color: #fd7014; }
   .openMap .fa,
   .toSend .fa {
     color: #fff; }
 
 .openMap {
-  bottom: 40px;
   right: 20px; }
 
 .toSend {
-  visibility: hidden;
-  bottom: 40px;
-  right: 80px; }
+  right: 80px;
+  visibility: hidden; }
 
 .image-preview-input {
   position: relative;
   overflow: hidden;
   margin: 0;
   color: #333;
-  background-color: #fff;
-  border-color: #ccc; }
+  border-color: #ccc;
+  background-color: #fff; }
 
 .image-preview-input input[type=file] {
+  font-size: 20px;
   position: absolute;
   top: 0;
   right: 0;
   margin: 0;
   padding: 0;
-  font-size: 20px;
   cursor: pointer;
   opacity: 0;
   filter: alpha(opacity=0); }
@@ -475,6 +474,9 @@ textarea {
 
 .image-preview .popover {
   left: 15px !important; }
+
+.helps {
+  position: relative; }
 
 /* Layouts */
 body {

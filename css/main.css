@@ -391,7 +391,7 @@ th {
   color: #444; }
 
 .fa-question {
-  color: #E77E00; }
+  color: #e77e00; }
 
 .btn {
   border-radius: 0;
@@ -408,8 +408,8 @@ textarea {
   border-radius: 0 !important; }
 
 .nopadding {
-  padding: 0 !important;
-  margin: 0 !important; }
+  margin: 0 !important;
+  padding: 0 !important; }
 
 .nopaddingright {
   padding-right: 0 !important; }
@@ -425,47 +425,46 @@ textarea {
 
 .openMap,
 .toSend {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   position: fixed;
+  bottom: 20px;
+  display: flex;
   width: 50px;
   height: 50px;
-  border-radius: 50%;
   border: 1px solid #fff;
-  background-color: #FF9A00; }
+  border-radius: 50%;
+  background-color: #ff9a00;
+  align-items: center;
+  justify-content: center; }
   .openMap:hover,
   .toSend:hover {
-    background-color: #FD7014;
-    border: 1px solid #999; }
+    border: 1px solid #999;
+    background-color: #fd7014; }
   .openMap .fa,
   .toSend .fa {
     color: #fff; }
 
 .openMap {
-  bottom: 40px;
   right: 20px; }
 
 .toSend {
-  visibility: hidden;
-  bottom: 40px;
-  right: 80px; }
+  right: 80px;
+  visibility: hidden; }
 
 .image-preview-input {
   position: relative;
   overflow: hidden;
   margin: 0;
   color: #333;
-  background-color: #fff;
-  border-color: #ccc; }
+  border-color: #ccc;
+  background-color: #fff; }
 
 .image-preview-input input[type=file] {
+  font-size: 20px;
   position: absolute;
   top: 0;
   right: 0;
   margin: 0;
   padding: 0;
-  font-size: 20px;
   cursor: pointer;
   opacity: 0;
   filter: alpha(opacity=0); }
@@ -475,6 +474,9 @@ textarea {
 
 .image-preview .popover {
   left: 15px !important; }
+
+.helps {
+  position: relative; }
 
 /* Layouts */
 /* ==|====================
@@ -567,27 +569,27 @@ textarea {
     align-items: center;
     justify-content: center; }
   .m-details-wrapper .m-details-btn-wrapper .icon {
-    height: 40px;
     width: 40px;
+    height: 40px;
     background-size: cover; }
     @media (max-width: 768px) {
       .m-details-wrapper .m-details-btn-wrapper .icon {
-        height: 25px;
-        width: 25px; } }
+        width: 25px;
+        height: 25px; } }
   .m-details-wrapper .m-details-btn-wrapper .btn:hover {
     background-color: #F8F8F8; }
   @media (min-width: 1200px) {
     .m-details-wrapper .m-details-btn-wrapper .top-send-btn {
       padding-right: 1px; } }
   .m-details-wrapper .m-details-btn-wrapper .top-send-btn .btn {
-    color: #000;
-    padding-bottom: 5px;
     display: flex;
-    align-items: center;
-    justify-content: center;
     height: 70px;
+    padding-bottom: 5px;
+    color: #000;
     border-top: 1px solid #ccc;
-    border-right: 1px solid #ccc; }
+    border-right: 1px solid #ccc;
+    align-items: center;
+    justify-content: center; }
     .m-details-wrapper .m-details-btn-wrapper .top-send-btn .btn .send {
       font-size: 24px;
       padding-right: 12px; }
@@ -603,8 +605,8 @@ textarea {
   .m-details-wrapper .m-details-btn-wrapper .bottom-details-wrapper .upload-icon {
     background-image: url("../img/icons/Camera-40.png"); }
   .m-details-wrapper .m-details-btn-wrapper .bottom-details-wrapper .details-btn {
-    height: 70px;
-    line-height: 70px; }
+    line-height: 70px;
+    height: 70px; }
     .m-details-wrapper .m-details-btn-wrapper .bottom-details-wrapper .details-btn:first-child {
       border: 1px solid #ccc;
       border-left: none; }
@@ -616,12 +618,12 @@ textarea {
     border-left: none; }
     @media (max-width: 991px) {
       .m-details-wrapper .m-details-btn-wrapper .bottom-details-wrapper .second-details-btn {
-        border-bottom: 1px solid #ccc;
-        border-top: none; } }
+        border-top: none;
+        border-bottom: 1px solid #ccc; } }
   .m-details-wrapper .m-details-btn-wrapper .bottom-details-wrapper .last-details-btn {
     border-top: 1px solid #ccc;
-    border-bottom: 1px solid #ccc;
-    border-right: 1px solid #ccc; }
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc; }
     @media (max-width: 991px) {
       .m-details-wrapper .m-details-btn-wrapper .bottom-details-wrapper .last-details-btn {
         border-top: none; } }
@@ -631,14 +633,14 @@ textarea {
   justify-content: flex-start;
   flex-wrap: wrap; }
   .m-header-category-wrapper .e-category-line .e-category-item {
+    line-height: 60px;
+    display: flex;
     min-width: 25%;
     min-height: 60px;
-    line-height: 60px;
     border: 1px solid #ccc;
     border-bottom: none;
     border-left: none;
     flex-grow: 1;
-    display: flex;
     align-items: center;
     justify-content: center; }
     .m-header-category-wrapper .e-category-line .e-category-item:hover {
@@ -648,13 +650,13 @@ textarea {
         min-width: 16.666%; } }
     .m-header-category-wrapper .e-category-line .e-category-item .icon {
       display: block;
-      height: 40px;
       width: 40px;
+      height: 40px;
       background-size: cover; }
       @media (max-width: 768px) {
         .m-header-category-wrapper .e-category-line .e-category-item .icon {
-          height: 30px;
-          width: 30px; } }
+          width: 30px;
+          height: 30px; } }
     .m-header-category-wrapper .e-category-line .e-category-item .maintenance-icon {
       background-image: url("../img/icons/Maintenance-40.png"); }
 .m-header-category-wrapper .e-category-first-line {
@@ -665,11 +667,11 @@ textarea {
   flex-wrap: wrap; }
 
 .limited-card .caption h3 {
-  margin: 0px !important; }
+  margin: 0 !important; }
 
 .card-footer {
-  height: 35px;
   display: flex;
+  height: 35px;
   justify-content: space-between;
   align-items: center; }
   @media (max-width: 450px) {
@@ -690,8 +692,8 @@ textarea {
       .card-footer .footer-btns .open-map-btn .fa {
         color: #fff; }
     .card-footer .footer-btns .card-details-btn {
-      background-color: #EE8903;
-      border: none; }
+      border: none;
+      background-color: #EE8903; }
       .card-footer .footer-btns .card-details-btn a {
         color: #fff; }
 
@@ -714,17 +716,19 @@ textarea {
 .help {
   font-family: 'Marck Script', cursive;
   font-size: 24px;
-  position: absolute; }
+  position: absolute;
+  display: none; }
 
 .arrow {
   position: absolute;
-  background-size: contain;
-  background-repeat: no-repeat; }
+  display: none;
+  background-repeat: no-repeat;
+  background-size: contain; }
 
 .help1 {
   position: absolute;
-  left: -65px;
   top: -30px;
+  left: -65px;
   width: 100px; }
 
 .arrow1 {
@@ -735,8 +739,8 @@ textarea {
   background-image: url("../img/arrow-help1.png"); }
 
 .help2 {
-  left: -65px;
-  top: -40px; }
+  top: -40px;
+  left: -65px; }
 
 .arrow2 {
   position: absolute;
@@ -746,8 +750,8 @@ textarea {
   background-image: url("../img/arrow-help2.png"); }
 
 .help3 {
-  left: -250px;
-  top: -40px; }
+  top: -40px;
+  left: -250px; }
 
 .arrow3 {
   position: absolute;
@@ -758,13 +762,13 @@ textarea {
   background-image: url("../img/arrow-help3.png"); }
 
 .help4 {
-  right: -180px;
-  top: 110px; }
+  top: 110px;
+  right: -180px; }
 
 .arrow4 {
   position: absolute;
-  right: -40px;
   top: 125px;
+  right: -40px;
   width: 200px;
   height: 300px;
   background-image: url("../img/arrow-help4.png"); }
@@ -781,8 +785,8 @@ textarea {
   background-image: url("../img/arrow-help5.png"); }
 
 .help6 {
-  right: -60px;
-  top: -40px; }
+  top: -40px;
+  right: -60px; }
 
 .arrow6 {
   right: -30px;
@@ -791,13 +795,13 @@ textarea {
   background-image: url("../img/arrow-help6.png"); }
 
 .help-hide {
-  top: 30px;
-  left: 230px;
+  top: -10px;
+  left: 130px;
   color: #333; }
 
 .arrow-hide {
-  top: 25px;
-  left: 150px;
+  top: -5px;
+  left: 40px;
   width: 70px;
   height: 50px;
   background-image: url("../img/arrow-hide.png"); }

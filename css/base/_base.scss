@@ -1,13 +1,11 @@
 /* ===========================
    Base
    =========================== */
-body {}
-a {}
 .fa {
     color: #444;
 }
 .fa-question {
-    color: #E77E00;
+    color: #e77e00;
 }
 .btn {
     border-radius: 0;
@@ -16,18 +14,17 @@ a {}
 .btn:focus {
     outline: none !important;
 }
-.form-control {}
 .page-header {
     margin: 0;
     border: none;
 }
 textarea {
-    //    height: 100%;
+    //: 100%;
     border-radius: 0 !important;
 }
 .nopadding {
-    padding: 0 !important;
     margin: 0 !important;
+    padding: 0 !important;
 }
 .nopaddingright {
     padding-right: 0 !important;
@@ -38,56 +35,51 @@ textarea {
 .btn-full-width {
     width: 100%;
 }
-textarea {}
 .form-group {
     border: none;
 }
 .openMap,
 .toSend {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     position: fixed;
+    bottom: 20px;
+    display: flex;
     width: 50px;
     height: 50px;
-    border-radius: 50%;
     border: 1px solid #fff;
-    background-color: #FF9A00;
+    border-radius: 50%;
+    background-color: #ff9a00;
+    align-items: center;
+    justify-content: center;
     &:hover {
-        background-color: #FD7014;
         border: 1px solid #999;
+        background-color: #fd7014;
     }
     .fa {
         color: #fff;
     }
 }
 .openMap {
-    bottom: 40px;
     right: 20px;
 }
 .toSend {
-    visibility: hidden;
-    bottom: 40px;
     right: 80px;
-    .fa {
-        //margin-right: 3px;
-    }
+    visibility: hidden;
 }
 .image-preview-input {
     position: relative;
     overflow: hidden;
     margin: 0;
     color: #333;
-    background-color: #fff;
     border-color: #ccc;
+    background-color: #fff;
 }
 .image-preview-input input[type=file] {
+    font-size: 20px;
     position: absolute;
     top: 0;
     right: 0;
     margin: 0;
     padding: 0;
-    font-size: 20px;
     cursor: pointer;
     opacity: 0;
     filter: alpha(opacity=0);
@@ -97,4 +89,7 @@ textarea {}
 }
 .image-preview .popover {
     left: 15px !important;
+}
+.helps {
+    position: relative;
 }

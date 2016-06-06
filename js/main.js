@@ -1,5 +1,15 @@
 $(document).ready(function() {
     var width;
+
+    function toggleHintsOnClick() {
+      // Toggle help hints
+      $('.help-btn').click(function(event) {
+        //Click help-btn and toggle help hints
+        $('.arrow').toggle();
+        $('.help').toggle();
+      });
+    }
+
     //Check to see if the window is top if not then display button
     $(window).scroll(function() {
         if (($(this).scrollTop() > 300)) {
@@ -19,14 +29,20 @@ $(document).ready(function() {
         return false;
     });
 
-    var firstVisit = 
-
-    // Toggle help hints
-    $('.help-btn').click(function(event) {
-      //Click help-btn and toggle help hints
+    if ($.cookie('firstVisit')) {
+      toggleHintsOnClick();
+      // $.removeCookie("firstVisit");
+    } else {
       $('.arrow').toggle();
       $('.help').toggle();
-    });
+      toggleHintsOnClick();
+      $.cookie('firstVisit', 'This first visit ');
+    }
+
+
+
+
+
 
 
 

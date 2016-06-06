@@ -1,56 +1,43 @@
 .card-wrapper {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.full-card {
-}
-
-.limited-card {
-  .caption h3 {
-    margin: 0px !important;
-  }
-}
-
-.card-footer {
-  height: 35px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-
-  @media (max-width: 450px) {
-      flex-direction: column;
-      height: 100%;
-  }
-
-  @media (max-width: 991px) and (min-width: 768px) {
-      flex-direction: column;
-      height: 100%;
-  }
-
-  p {
-    margin: 0;
-  }
-
-  .footer-btns {
     display: flex;
-
-    .open-map-btn {
-      border: none;
-      background-color: $green;
-
-      .fa {
-        color: #fff;
-      }
+    flex-wrap: wrap;
+}
+.limited-card {
+    .caption h3 {
+        margin: 0 !important;
     }
-
-    .card-details-btn {
-      background-color: $orange;
-      border: none;
-
-      a {
-        color: #fff;
-      }
+}
+.card-footer {
+    display: flex;
+    height: 35px;
+    justify-content: space-between;
+    align-items: center;
+    @media (max-width: 450px) {
+        flex-direction: column;
+        height: 100%;
     }
-  }
+    @media (max-width: 991px) and (min-width: 768px) {
+        flex-direction: column;
+        height: 100%;
+    }
+    p {
+        margin: 0;
+    }
+    .footer-btns {
+        display: flex;
+        .open-map-btn {
+            border: none;
+            background-color: $green;
+            .fa {
+                color: #fff;
+            }
+        }
+        .card-details-btn {
+            border: none;
+            background-color: $orange;
+            a {
+                color: #fff;
+            }
+        }
+    }
 }
