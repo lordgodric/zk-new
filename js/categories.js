@@ -9,19 +9,17 @@ $(document).ready(function() {
      if (!$('.request-text').val()) {
       $('.request-text').val( $('.request-text').val() + thisDesc+ ' ');
       //  esle if textarea not null we add space before our #hashtag
-
      } else {
        $('.request-text').val( $('.request-text').val()+ ' ' + thisDesc+ ' ');
      }
      $( ".request-text:contains('#asd')" ).css( "text-decoration", "underline" );
    });
 
-   $('.e-category-item').hover(function(event) {
+   $('.e-category-item').mouseover(function(event) {
      var thisDesc = $(this).find($('.category-desc')).text();
-    //  $(this).find($('.category-desc'))
-    //  $(this).find($('img'))
+     $(this).find($('.category-desc'));
+     $('.output-category').text(thisDesc);
      $('.e-category-item').mouseleave(function(event) {
-
      });
    });
 

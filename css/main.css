@@ -12,7 +12,11 @@
  */
 /* Site settings */
 /* Vendor */
+/*@import "vendor/bootstrap";*/
+/*@import "vendor/foundation";*/
 /* Override */
+/*@import "vendor-override/bootsrap";*/
+/*@import "vendor-override/foundation";*/
 /* Base */
 /* ==========================================================================
    Normalize.scss settings
@@ -496,7 +500,8 @@ textarea {
    ======================= */
 @media (max-width: 768px) {
   .l-header {
-    padding: 0 !important; }
+    padding: 0 !important;
+    height: 100% !important; }
     .l-header .both-wrapper {
       padding: 0 !important; }
       .l-header .both-wrapper .m-details-wrapper {
@@ -537,11 +542,16 @@ textarea {
    Layout/Footer
    ======================= */
 .l-footer {
+  padding-top: 10px;
   border-top: 1px solid #ccc;
   min-height: 150px;
   background-color: #626F59; }
   .l-footer * {
     color: #fff; }
+  .l-footer h3 {
+    margin-top: 0; }
+  .l-footer .logo {
+    max-width: 50px; }
 
 /* Modules */
 /* ==|====================
@@ -675,19 +685,20 @@ textarea {
     justify-content: center; }
     .m-header-category-wrapper .e-category-line .e-category-item:hover {
       background-color: #F8F8F8; }
-      .m-header-category-wrapper .e-category-line .e-category-item:hover img {
-        opacity: 0.2;
-        display: none;
-        transition: opacity; }
-      .m-header-category-wrapper .e-category-line .e-category-item:hover .category-desc {
-        display: inline-block;
-        min-width: 25%;
-        overflow: hidden;
-        line-height: 100%;
-        top: 100px; }
     @media (min-width: 1200px) {
       .m-header-category-wrapper .e-category-line .e-category-item {
         min-width: 16.666%; } }
+    @media (max-width: 768px) and (min-width: 420) {
+      .m-header-category-wrapper .e-category-line .e-category-item {
+        min-width: 50%; } }
+    @media (max-width: 768px) {
+      .m-header-category-wrapper .e-category-line .e-category-item {
+        flex-direction: column;
+        width: 100%; }
+        .m-header-category-wrapper .e-category-line .e-category-item .category-desc {
+          line-height: 20px;
+          display: block !important;
+          order: 2; } }
     .m-header-category-wrapper .e-category-line .e-category-item img {
       width: 25px;
       height: 25px; }
@@ -697,8 +708,6 @@ textarea {
           height: 20px; } }
     .m-header-category-wrapper .e-category-line .e-category-item .category-hash, .m-header-category-wrapper .e-category-line .e-category-item .category-desc {
       display: none; }
-    .m-header-category-wrapper .e-category-line .e-category-item .maintenance-icon {
-      background-image: url("../img/icons/Maintenance-40.png"); }
 .m-header-category-wrapper .e-category-first-line {
   margin-top: 15px; }
 

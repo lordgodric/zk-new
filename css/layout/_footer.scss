@@ -2,10 +2,17 @@
    Layout/Footer
    ======================= */
 .l-footer {
+    padding-top: 10px;
     border-top: 1px solid #ccc;
     min-height: 150px;
     background-color: $green;
     * {
         color: #fff;
+    }
+    h3 {
+      margin-top: 0;
+    }
+    .logo {
+      max-width: 50px;
     }
 }

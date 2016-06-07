@@ -668,6 +668,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 45749,
+		"inputAbbreviatedPath": "\/img\/logo.png",
+		"outputAbbreviatedPath": "\/img\/logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/orange-min.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -828,7 +839,7 @@
 	"bowerAbbreviatedPath": "",
 	"displayValue": "zk-new",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "meme-fry"
+	"iconImageName": "\/img\/logo.png"
 	},
 "projectSettings": {
 	"alwaysUseExternalServer": 0,

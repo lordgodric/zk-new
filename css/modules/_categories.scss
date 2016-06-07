@@ -16,23 +16,21 @@
             justify-content: center;
             &:hover {
                 background-color: $grey;
-
-                img {
-                  opacity: 0.2;
-                  display: none;
-                  transition: opacity;
-                }
-
-                .category-desc {
-                  display: inline-block;
-                  min-width: 25%;
-                  overflow: hidden;
-                  line-height: 100%;
-                  top: 100px;
-                }
             }
             @media (min-width: $screen-lg-min) {
                 min-width: 16.666%;
+            }
+            @media (max-width: 768px) and (min-width: 420px) {
+                min-width: 50%;
+            }
+            @media (max-width: $screen-sm-min) {
+                flex-direction: column;
+                width: 100%;
+                .category-desc {
+                  line-height: 20px;
+                  display: block !important;
+                  order: 2;
+                }
             }
             img {
                 width: 25px;
@@ -44,9 +42,6 @@
             }
             .category-hash, .category-desc {
               display: none;
-            }
-            .maintenance-icon {
-                background-image: url('../img/icons/Maintenance-40.png');
             }
         }
     }

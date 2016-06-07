@@ -5,6 +5,7 @@
 .l-header {
   @media (max-width: $screen-sm-min) {
     padding: 0 !important;
+    height: 100% !important;
 
     .both-wrapper {
         padding: 0 !important;
