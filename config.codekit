@@ -514,6 +514,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/Great-Britain-40.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1571,
+		"inputAbbreviatedPath": "\/img\/Great-Britain-40.png",
+		"outputAbbreviatedPath": "\/img\/Great-Britain-40.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/icons\/Broom-40.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -569,6 +580,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/icons\/Dog-40.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 792,
+		"inputAbbreviatedPath": "\/img\/icons\/Dog-40.png",
+		"outputAbbreviatedPath": "\/img\/icons\/Dog-40.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/icons\/Door-Opened-40.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -587,6 +609,17 @@
 		"initialSize": 649,
 		"inputAbbreviatedPath": "\/img\/icons\/Laptop-40.png",
 		"outputAbbreviatedPath": "\/img\/icons\/Laptop-40.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/icons\/Living-Room-40.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 776,
+		"inputAbbreviatedPath": "\/img\/icons\/Living-Room-40.png",
+		"outputAbbreviatedPath": "\/img\/icons\/Living-Room-40.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -646,6 +679,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/icons\/Restaurant-40.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 858,
+		"inputAbbreviatedPath": "\/img\/icons\/Restaurant-40.png",
+		"outputAbbreviatedPath": "\/img\/icons\/Restaurant-40.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/icons\/Roller-Brush-40.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -653,6 +697,28 @@
 		"initialSize": 440,
 		"inputAbbreviatedPath": "\/img\/icons\/Roller-Brush-40.png",
 		"outputAbbreviatedPath": "\/img\/icons\/Roller-Brush-40.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/icons\/Shopping-Cart-40.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 662,
+		"inputAbbreviatedPath": "\/img\/icons\/Shopping-Cart-40.png",
+		"outputAbbreviatedPath": "\/img\/icons\/Shopping-Cart-40.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/icons\/Taxi-40.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 832,
+		"inputAbbreviatedPath": "\/img\/icons\/Taxi-40.png",
+		"outputAbbreviatedPath": "\/img\/icons\/Taxi-40.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -686,6 +752,28 @@
 		"initialSize": 211229,
 		"inputAbbreviatedPath": "\/img\/orange-min.jpg",
 		"outputAbbreviatedPath": "\/img\/orange-min.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/Russian-40.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 313,
+		"inputAbbreviatedPath": "\/img\/Russian-40.png",
+		"outputAbbreviatedPath": "\/img\/Russian-40.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/Ukraine-40.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 242,
+		"inputAbbreviatedPath": "\/img\/Ukraine-40.png",
+		"outputAbbreviatedPath": "\/img\/Ukraine-40.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

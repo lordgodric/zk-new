@@ -21,7 +21,7 @@ $(document).ready(function() {
         // if textarea not null
         } else {
 
-            thisHash = ' ' + thisHash + ' ';
+            thisHash = thisHash + ' ';
             // if we don't have thisHash in textarea
             if (present == -1) {
 

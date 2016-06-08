@@ -558,8 +558,9 @@ textarea {
    Module/Box
    ======================= */
 .navbar {
-  padding: 10px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  vertical-align: middle;
+  height: 70px; }
   .navbar .fa-question {
     color: #FBBC05; }
   .navbar .navbar-header .logo-wrapper {
@@ -596,6 +597,10 @@ textarea {
     width: 45px;
     background-image: url("../img/avatar.jpg");
     background-size: contain; }
+  .navbar .language li {
+    display: inline-block; }
+    .navbar .language li img {
+      width: 30px; }
 
 .m-details-wrapper {
   margin-top: 20px; }
