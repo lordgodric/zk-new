@@ -560,6 +560,8 @@ textarea {
 .navbar {
   padding: 10px;
   margin: 0 auto; }
+  .navbar .fa-question {
+    color: #FBBC05; }
   .navbar .navbar-header .logo-wrapper {
     position: absolute;
     left: 50%;
