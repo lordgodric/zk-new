@@ -20,12 +20,15 @@
             @media (min-width: $screen-lg-min) {
                 min-width: 16.666%;
             }
-            @media (max-width: 768px) and (min-width: 420px) {
-                min-width: 50%;
+            @media (max-width: 768px) {
+                width: 50%;
+            }
+            @media (max-width: 425px) {
+                width: 100%;
             }
             @media (max-width: $screen-sm-min) {
                 flex-direction: column;
-                width: 100%;
+                //width: 100%;
                 .category-desc {
                   line-height: 20px;
                   display: block !important;

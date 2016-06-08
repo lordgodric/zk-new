@@ -688,13 +688,15 @@ textarea {
     @media (min-width: 1200px) {
       .m-header-category-wrapper .e-category-line .e-category-item {
         min-width: 16.666%; } }
-    @media (max-width: 768px) and (min-width: 420) {
-      .m-header-category-wrapper .e-category-line .e-category-item {
-        min-width: 50%; } }
     @media (max-width: 768px) {
       .m-header-category-wrapper .e-category-line .e-category-item {
-        flex-direction: column;
-        width: 100%; }
+        width: 50%; } }
+    @media (max-width: 425px) {
+      .m-header-category-wrapper .e-category-line .e-category-item {
+        width: 100%; } }
+    @media (max-width: 768px) {
+      .m-header-category-wrapper .e-category-line .e-category-item {
+        flex-direction: column; }
         .m-header-category-wrapper .e-category-line .e-category-item .category-desc {
           line-height: 20px;
           display: block !important;

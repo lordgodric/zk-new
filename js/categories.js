@@ -2,17 +2,33 @@ $(document).ready(function() {
    // Stuff to do as soon as the DOM is ready
 
    $('.e-category-item').click(function(event) {
-     //  take value from field category-hash
-     var thisDesc = $(this).find($('.category-hash')).text();
-     // add thisDesc to current value in textarea
-     // if textarea null add #hashtag without space before
+     // try find #hashtag in textarea
+     var present = str.search($(this).find($('.category-hash')).text());
+     // take #hashtag name value from div
+     var thisHash = $(this).find($('.category-hash')).text();
+
+     // if textarea null
      if (!$('.request-text').val()) {
-      $('.request-text').val( $('.request-text').val() + thisDesc+ ' ');
-      //  esle if textarea not null we add space before our #hashtag
+      $('.request-text').val($('.request-text').val() + thisHash);
+      thisHash = thisHash + ' ';
+
+      // if textarea not null
      } else {
-       $('.request-text').val( $('.request-text').val()+ ' ' + thisDesc+ ' ');
+       thisHash = ' ' + thisHash + ' ';
+       console.log(present);
+
+       // check availability #hashtag in textarea
+       if (present == -1) {
+
+         // add #hashtag
+         $('.request-text').val($('.request-text').val() + thisHash);
+
+       } else {
+
+         // delete #hashtag
+         $('.request-text').val($('.request-text').val().replace(thisHash, ''));
+       }
      }
-     $( ".request-text:contains('#asd')" ).css( "text-decoration", "underline" );
    });
 
    $('.e-category-item').mouseover(function(event) {
