@@ -2,17 +2,29 @@
   //padding: 10px;
   margin: 0 auto;
   vertical-align: middle;
-  height: 70px;
+  line-height: 70px;
+  //min-height: 70px;
+  @media (min-width: $screen-sm-max) {
+    height: 70px;
+  }
 
   .fa-question {
     color: #FBBC05;
   }
 
+  .flag-wrapper {
+    display: inline-block;
+    line-height: 70px;
+    img {
+      width: 30px;
+    }
+  }
+
   .navbar-header .logo-wrapper {
     position: absolute;
     left: 50%;
-    margin-top: -30px;
-    line-height: 71px;
+    margin-top: -90px;
+    line-height: 70px;
     @media (max-width: $screen-sm-max) {
       margin-left: -30px;
     }
@@ -42,19 +54,33 @@
   }
 
   .navbar-brand .fa-2x {
-    line-height: 20px ;
+    //line-height: 70px ;
   }
 
   .avatar {
     border-radius: 50px;
-    margin-top: 4px;
+    margin: 12px 20px 12px 12px;
     height: 45px;
     width: 45px;
     background-image: url("../img/avatar.jpg");
     background-size: contain;
   }
-  .language {
 
+}
+
+.navbar-header {
+  line-height: 70px;
+  vertical-align: middle;
+}
+
+.right-nav {
+  @media (min-width: $screen-sm-max) {
+    height: 70px;
+    line-height: 70px;
+  }
+
+  .r-menu {
+    margin: 0;
 
     li {
       display: inline-block;
@@ -63,6 +89,8 @@
         width: 30px;
       }
     }
+  }
+  .avatar {
 
   }
 }

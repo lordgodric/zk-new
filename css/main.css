@@ -560,14 +560,22 @@ textarea {
 .navbar {
   margin: 0 auto;
   vertical-align: middle;
-  height: 70px; }
+  line-height: 70px; }
+  @media (min-width: 991px) {
+    .navbar {
+      height: 70px; } }
   .navbar .fa-question {
     color: #FBBC05; }
+  .navbar .flag-wrapper {
+    display: inline-block;
+    line-height: 70px; }
+    .navbar .flag-wrapper img {
+      width: 30px; }
   .navbar .navbar-header .logo-wrapper {
     position: absolute;
     left: 50%;
-    margin-top: -30px;
-    line-height: 71px; }
+    margin-top: -90px;
+    line-height: 70px; }
     @media (max-width: 991px) {
       .navbar .navbar-header .logo-wrapper {
         margin-left: -30px; } }
@@ -588,18 +596,27 @@ textarea {
         .navbar .navbar-header .logo-wrapper .navbar-logo-desc {
           max-width: 50px;
           margin-left: 0px; } }
-  .navbar .navbar-brand .fa-2x {
-    line-height: 20px; }
   .navbar .avatar {
     border-radius: 50px;
-    margin-top: 4px;
+    margin: 12px 20px 12px 12px;
     height: 45px;
     width: 45px;
     background-image: url("../img/avatar.jpg");
     background-size: contain; }
-  .navbar .language li {
+
+.navbar-header {
+  line-height: 70px;
+  vertical-align: middle; }
+
+@media (min-width: 991px) {
+  .right-nav {
+    height: 70px;
+    line-height: 70px; } }
+.right-nav .r-menu {
+  margin: 0; }
+  .right-nav .r-menu li {
     display: inline-block; }
-    .navbar .language li img {
+    .right-nav .r-menu li img {
       width: 30px; }
 
 .m-details-wrapper {

@@ -1,7 +1,11 @@
 $(document).ready(function() {
     // Stuff to do as soon as the DOM is ready
 
+    $('.choose-lang').click(function(event) {
+      /* Act on the event */
 
+      $(".flag-wrapper").toggleClass("animated bounceInLeft");
+    });
 
     $('.e-category-item').click(function(event) {
 
