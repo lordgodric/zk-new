@@ -1,18 +1,26 @@
 $(document).ready(function() {
     // Stuff to do as soon as the DOM is ready
 
-    $(".choose-lang").click(function(){
+    $(".choose-lang, .lang-item").click(function(){
+
       $(".flag-wrapper").css('display', 'inline-block');
       $(".flag-wrapper").toggleClass('open');
+
+      // When open
       if ($(".flag-wrapper").hasClass('open')) {
-        console.log('boo');
-        $(".flag-wrapper").toggleClass('bounceInLeft');
-        // $(".flag-wrapper").removeClass('bounceOutLeft');
+        // $(".flag-wrapper").css('display', 'inline-block');
+        $(".flag-wrapper").toggleClass('fadeInLeft');
+        $(".flag-wrapper").removeClass('fadeOutLeftBig');
+
+      // When closed
       } else {
-        $(".flag-wrapper").toggleClass('bounceOutLeft');
-        // $(".flag-wrapper").removeClass('bounceInLeft');
+        $(".flag-wrapper").toggleClass('fadeOutLeftBig');
+        $(".flag-wrapper").removeClass('fadeInLeft');
+        // $(".flag-wrapper").css('display', 'none');
       }
     });
+
+
 
     $('.e-category-item').click(function(event) {
         // take #hashtag name value from div
