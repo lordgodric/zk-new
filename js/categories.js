@@ -2,15 +2,21 @@ $(document).ready(function() {
     // Stuff to do as soon as the DOM is ready
 
 
-    // $('.choose-lang').toggle(
-    //
-    // });
 
     $(".choose-lang").click(function(){
-      if ($(".flag-wrapper").hasClass('animated')) {
-        $(".flag-wrapper").toggleClass('animated bounceInRight');
+      $(".flag-wrapper").css('display', 'inline-block');
+      $(".flag-wrapper").toggleClass('open');
+      if ($(".flag-wrapper").hasClass('open')) {
+        $(".flag-wrapper").toggleClass('bounceInLeft');
+        $(".flag-wrapper").removeClass('bounceOutLeft')
+      } else {
+        $(".flag-wrapper").toggleClass('bounceOutLeft');
+        $(".flag-wrapper").removeClass('bounceInLeft')
       }
-      $(".flag-wrapper").toggleClass('animated bounceInLeft');
+      // $(".flag-wrapper").toggleClass('  ');
+      // $(".lang-item").click(function(event) {
+        // $(".flag-wrapper").toggleClass('open  bounceOutLeft');
+      // });
     });
 
     $('.e-category-item').click(function(event) {

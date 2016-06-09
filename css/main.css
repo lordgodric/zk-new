@@ -486,9 +486,6 @@ textarea {
 .border-green {
   border-bottom: 5px solid #626F59 !important; }
 
-.hide {
-  display: none; }
-
 /* Layouts */
 /* ==|====================
    Layout/Constrained
@@ -501,10 +498,18 @@ textarea {
 /* ==|====================
    Layout/Header
    ======================= */
+@media (min-width: 320px) and (max-width: 425px) {
+  .l-header {
+    height: 1400px; } }
+@media (min-width: 426px) and (max-width: 769px) {
+  .l-header {
+    height: 950px; } }
+@media (min-width: 769px) and (max-width: 1024px) {
+  .l-header {
+    height: 750px; } }
 @media (max-width: 768px) {
   .l-header {
-    padding: 0 !important;
-    height: 100% !important; }
+    padding: 0 !important; }
     .l-header .both-wrapper {
       padding: 0 !important; }
       .l-header .both-wrapper .m-details-wrapper {
@@ -570,7 +575,7 @@ textarea {
   .navbar .fa-question {
     color: #FBBC05; }
   .navbar .flag-wrapper {
-    display: inline-block;
+    display: none;
     line-height: 70px; }
     .navbar .flag-wrapper img {
       width: 30px; }
@@ -585,7 +590,7 @@ textarea {
     .navbar .navbar-header .logo-wrapper .navbar-logo {
       display: inline;
       max-width: 150px;
-      margin-left: -95px;
+      margin-left: -100px;
       vertical-align: middle; }
       @media (max-width: 991px) {
         .navbar .navbar-header .logo-wrapper .navbar-logo {
@@ -599,13 +604,6 @@ textarea {
         .navbar .navbar-header .logo-wrapper .navbar-logo-desc {
           max-width: 50px;
           margin-left: 0px; } }
-  .navbar .avatar {
-    border-radius: 50px;
-    margin: 12px 20px 12px 12px;
-    height: 45px;
-    width: 45px;
-    background-image: url("../img/avatar.jpg");
-    background-size: contain; }
 
 .navbar-header {
   line-height: 70px;
@@ -619,8 +617,22 @@ textarea {
   margin: 0; }
   .right-nav .r-menu li {
     display: inline-block; }
+    @media (max-width: 767px) {
+      .right-nav .r-menu li {
+        display: block !important; } }
     .right-nav .r-menu li img {
       width: 30px; }
+.right-nav .avatar {
+  display: block;
+  border-radius: 50px;
+  margin: 12px 20px 12px 12px;
+  height: 45px;
+  width: 45px;
+  background-image: url("../img/avatar.jpg");
+  background-size: contain; }
+  @media (max-width: 767px) {
+    .right-nav .avatar {
+      margin-left: 40px; } }
 
 .navbar-default .navbar-toggle {
   margin-top: 20px; }

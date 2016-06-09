@@ -19,7 +19,6 @@
     border: none;
 }
 textarea {
-    //: 100%;
     border-radius: 0 !important;
 }
 .nopadding {
@@ -97,12 +96,4 @@ textarea {
 /* Underline From Center */
 .border-green {
   border-bottom: 5px solid #626F59 !important;
-}
-
-.modal-open {
-    //overflow-y: hide ;
-}
-
-.hide {
-  display: none;
 }

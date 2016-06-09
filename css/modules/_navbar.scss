@@ -1,9 +1,7 @@
 .navbar {
-  //padding: 10px;
   margin: 0 auto;
   vertical-align: middle;
   line-height: 70px;
-  //min-height: 70px;
   @media (min-width: $screen-sm-max) {
     height: 70px;
   }
@@ -13,9 +11,8 @@
   }
 
   .flag-wrapper {
-    display: inline-block;
+    display: none;
     line-height: 70px;
-    //display: none !important;
     img {
       width: 30px;
     }
@@ -34,7 +31,7 @@
     .navbar-logo {
       display: inline;
       max-width: 150px;
-      margin-left: -95px;
+      margin-left: -100px;
       vertical-align: middle;
 
       @media (max-width: $screen-sm-max) {
@@ -54,20 +51,6 @@
 
 
   }
-
-  .navbar-brand .fa-2x {
-    //line-height: 70px ;
-  }
-
-  .avatar {
-    border-radius: 50px;
-    margin: 12px 20px 12px 12px;
-    height: 45px;
-    width: 45px;
-    background-image: url("../img/avatar.jpg");
-    background-size: contain;
-  }
-
 }
 
 .navbar-header {
@@ -86,6 +69,9 @@
 
     li {
       display: inline-block;
+      @media (max-width: 767px) {
+        display: block !important;
+      }
 
       img {
         width: 30px;
@@ -93,7 +79,16 @@
     }
   }
   .avatar {
-
+    display: block;
+    border-radius: 50px;
+    margin: 12px 20px 12px 12px;
+    height: 45px;
+    width: 45px;
+    background-image: url("../img/avatar.jpg");
+    background-size: contain;
+    @media (max-width: 767px) {
+      margin-left: 40px;
+    }
   }
 }
 
