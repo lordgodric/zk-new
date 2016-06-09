@@ -482,6 +482,9 @@ textarea {
 .border-green {
   border-bottom: 5px solid #626F59 !important; }
 
+.hide {
+  display: none; }
+
 /* Layouts */
 body {
   display: flex; }

@@ -486,6 +486,9 @@ textarea {
 .border-green {
   border-bottom: 5px solid #626F59 !important; }
 
+.hide {
+  display: none; }
+
 /* Layouts */
 /* ==|====================
    Layout/Constrained
@@ -578,7 +581,7 @@ textarea {
     line-height: 70px; }
     @media (max-width: 991px) {
       .navbar .navbar-header .logo-wrapper {
-        margin-left: -30px; } }
+        top: 70px; } }
     .navbar .navbar-header .logo-wrapper .navbar-logo {
       display: inline;
       max-width: 150px;
@@ -586,7 +589,7 @@ textarea {
       vertical-align: middle; }
       @media (max-width: 991px) {
         .navbar .navbar-header .logo-wrapper .navbar-logo {
-          max-width: 150px;
+          max-width: 100px;
           margin-left: -100px; } }
     .navbar .navbar-header .logo-wrapper .navbar-logo-desc {
       display: inline;
@@ -618,6 +621,9 @@ textarea {
     display: inline-block; }
     .right-nav .r-menu li img {
       width: 30px; }
+
+.navbar-default .navbar-toggle {
+  margin-top: 20px; }
 
 .m-details-wrapper {
   margin-top: 20px; }
@@ -870,13 +876,13 @@ textarea {
   background-image: url("../img/arrow-help6.png"); }
 
 .help-hide {
-  top: -10px;
-  left: 130px;
+  top: 10px;
+  left: 180px;
   color: #333; }
 
 .arrow-hide {
-  top: -5px;
-  left: 40px;
+  top: 10px;
+  left: 70px;
   width: 70px;
   height: 50px;
   background-image: url("../img/arrow-hide.png"); }

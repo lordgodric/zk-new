@@ -1,14 +1,19 @@
 $(document).ready(function() {
     // Stuff to do as soon as the DOM is ready
 
-    $('.choose-lang').click(function(event) {
-      /* Act on the event */
 
-      $(".flag-wrapper").toggleClass("animated bounceInLeft");
+    // $('.choose-lang').toggle(
+    //
+    // });
+
+    $(".choose-lang").click(function(){
+      if ($(".flag-wrapper").hasClass('animated')) {
+        $(".flag-wrapper").toggleClass('animated bounceInRight');
+      }
+      $(".flag-wrapper").toggleClass('animated bounceInLeft');
     });
 
     $('.e-category-item').click(function(event) {
-
         // take #hashtag name value from div
         var thisHash = $(this).find($('.category-hash')).text();
         var str = $('.request-text').val();
