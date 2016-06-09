@@ -574,15 +574,35 @@ textarea {
       height: 70px; } }
   .navbar .fa-question {
     color: #FBBC05; }
-  .navbar .flag-wrapper {
-    display: none;
-    line-height: 70px; }
-    .navbar .flag-wrapper img {
+  .navbar .lang-wrapper {
+    display: flex; }
+  .navbar .md-primary {
+    cursor: pointer;
+    font-weight: bold;
+    margin: 0 10px;
+    color: #626f59; }
+    .navbar .md-primary:hover, .navbar .md-primary:focus {
+      text-decoration: none !important; }
+  .navbar .md-fab-actions {
+    line-height: 70px;
+    width: 150px;
+    display: inline-block;
+    overflow: hidden;
+    cursor: pointer; }
+    .navbar .md-fab-actions .lang-item {
+      cursor: pointer; }
+    .navbar .md-fab-actions .lang-ua {
+      transform: translate(-30px, 0px); }
+    .navbar .md-fab-actions .lang-gb {
+      transform: translate(-70px, 0px); }
+    .navbar .md-fab-actions .lang-ru {
+      transform: translate(-100px, 0px); }
+    .navbar .md-fab-actions img {
       width: 30px; }
   .navbar .navbar-header .logo-wrapper {
     position: absolute;
     left: 50%;
-    margin-top: -90px;
+    top: -20px;
     line-height: 70px; }
     @media (max-width: 991px) {
       .navbar .navbar-header .logo-wrapper {

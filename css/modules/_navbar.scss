@@ -10,9 +10,40 @@
     color: #FBBC05;
   }
 
-  .flag-wrapper {
-    display: none;
+  .lang-wrapper {
+    display: flex;
+  }
+
+  .md-primary {
+    cursor: pointer;
+    font-weight: bold;
+    margin: 0 10px;
+    color: #626f59;
+    &:hover, &:focus {
+      text-decoration: none !important;
+    }
+  }
+
+  .md-fab-actions {
     line-height: 70px;
+    width: 150px;
+    display: inline-block;
+    overflow: hidden;
+    cursor: pointer;
+
+    .lang-item {
+      cursor: pointer;
+    }
+
+    .lang-ua {
+      transform: translate(-30px,0px);
+    }
+    .lang-gb {
+      transform: translate(-70px,0px);
+    }
+    .lang-ru {
+      transform: translate(-100px,0px);
+    }
 
     img {
       width: 30px;
@@ -22,7 +53,7 @@
   .navbar-header .logo-wrapper {
     position: absolute;
     left: 50%;
-    margin-top: -90px;
+    top: -20px;
     line-height: 70px;
     @media (max-width: $screen-sm-max) {
       top: 70px;

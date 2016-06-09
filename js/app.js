@@ -1,26 +1,23 @@
 $(document).ready(function() {
     // Stuff to do as soon as the DOM is ready
 
-    $(".choose-lang, .lang-item").click(function(){
-
-      $(".flag-wrapper").css('display', 'inline-block');
-      $(".flag-wrapper").toggleClass('open');
-
-      // When open
-      if ($(".flag-wrapper").hasClass('open')) {
-        // $(".flag-wrapper").css('display', 'inline-block');
-        $(".flag-wrapper").toggleClass('fadeInLeft');
-        $(".flag-wrapper").removeClass('fadeOutLeftBig');
-
-      // When closed
+    $('.md-primary, .lang-item').click(function(event) {
+      $('.md-primary').toggleClass('open');
+      if ($('.md-primary').hasClass('open')) {
+        $(".lang-ua").css('transform', 'translate(-30px,0px)');
+        $(".lang-gb").css('transform', 'translate(-70px,0px)');
+        $(".lang-ru").css('transform', 'translate(-100px,0px)');
       } else {
-        $(".flag-wrapper").toggleClass('fadeOutLeftBig');
-        $(".flag-wrapper").removeClass('fadeInLeft');
-        // $(".flag-wrapper").css('display', 'none');
+        $(".lang-ua").css('transform', 'translate(5px,0px)');
+        $(".lang-gb").css('transform', 'translate(15px,0px)');
+        $(".lang-ru").css('transform', 'translate(25px,0px)');
       }
+      $(".lang-ua, .lang-gb, .lang-ru").css('transition', '0.5s');
     });
 
-
+    $(this).click(function(event) {
+      /* Act on the event */
+    });
 
     $('.e-category-item').click(function(event) {
         // take #hashtag name value from div
