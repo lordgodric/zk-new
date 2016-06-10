@@ -1,10 +1,41 @@
 $(document).ready(function() {
     // Stuff to do as soon as the DOM is ready
     var windowWidth;
+    
     $( window ).resize(function() {
-      console.log($( window ).width());
+      // console.log($( window ).width());
       windowWidth = $( window ).width();
+      console.log(windowWidth);
     });
+
+    function toggleHintsOnClick() {
+      // Toggle help hints
+      $('.help-btn').click(function(event) {
+        //Click help-btn and toggle help hints
+        $('.arrow').toggle();
+        $('.help').toggle();
+      });
+    };
+
+    // console.log(windowWidth);
+    if (true) {
+      // if this not first visit
+      if ($.cookie('firstVisit')) {
+        // on click guest can show help hints
+        toggleHintsOnClick();
+        // $.removeCookie("firstVisit");
+      // if this first visit
+      } else {
+        // show help hints
+        $('.arrow').toggle();
+        $('.help').toggle();
+        // on click hide help hints
+        toggleHintsOnClick();
+        // and create cookie
+        $.cookie('firstVisit', 'This first visit ');
+      }
+    }
+
 
     $('.md-primary, .lang-item').click(function(event) {
       windowWidth = $( window ).width();

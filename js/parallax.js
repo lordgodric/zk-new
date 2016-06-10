@@ -7,6 +7,6 @@ $(window).scroll(function(event) {
   // console.log(wScroll);
 
   // Change background-position for .l-header background-image
-  $('.l-header').css('background-position', ' ' + wScroll / 10 +'%  '+ wScroll / 7 +'% ');
+  $('.l-header').css('background-position', ' ' + wScroll / 33 +'%  '+ wScroll / 5 +'% ');
   $('.both-wrapper').css('bottom', ' -' + wScroll * 0.3 +'px  ');
 });

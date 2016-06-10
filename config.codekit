@@ -754,6 +754,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/mapbg.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2.14924e+06,
+		"inputAbbreviatedPath": "\/img\/mapbg.png",
+		"outputAbbreviatedPath": "\/img\/mapbg.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/orange-min.jpg": {
 		"fileType": 16384,
 		"ignore": 0,

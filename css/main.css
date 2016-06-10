@@ -484,6 +484,7 @@ textarea {
 
 /* Underline From Center */
 .border-green {
+  box-sizing: border-box;
   border-bottom: 5px solid #626F59 !important; }
 
 /* Layouts */
@@ -538,8 +539,8 @@ textarea {
 .l-header {
   min-height: 400px;
   background-attachment: fixed;
-  background-image: url("../img/orange-min.jpg");
-  background-size: cover;
+  background-image: url("../img/mapbg.png");
+  background-size: contains;
   padding: 40px;
   margin-top: 70px;
   overflow: hidden; }
@@ -759,19 +760,32 @@ textarea {
         border-top: none; } }
 
 .m-header-category-wrapper .e-category-line {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
   justify-content: flex-start;
+  -ms-flex-wrap: wrap;
   flex-wrap: wrap; }
   .m-header-category-wrapper .e-category-line .e-category-item {
     line-height: 60px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     min-width: 25%;
     min-height: 60px;
     border: 1px solid #ccc;
     border-bottom: none;
     border-left: none;
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
     flex-grow: 1;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center; }
     .m-header-category-wrapper .e-category-line .e-category-item:hover {
       background-color: #F8F8F8; }
@@ -786,10 +800,16 @@ textarea {
         width: 100%; } }
     @media (max-width: 768px) {
       .m-header-category-wrapper .e-category-line .e-category-item {
-        flex-direction: column; }
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        /*width: 100%;*/ }
         .m-header-category-wrapper .e-category-line .e-category-item .category-desc {
           line-height: 20px;
           display: block !important;
+          -webkit-box-ordinal-group: 3;
+          -ms-flex-order: 2;
           order: 2; } }
     .m-header-category-wrapper .e-category-line .e-category-item img {
       width: 25px;
