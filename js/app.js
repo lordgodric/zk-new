@@ -1,22 +1,36 @@
 $(document).ready(function() {
     // Stuff to do as soon as the DOM is ready
-
-    $('.md-primary, .lang-item').click(function(event) {
-      $('.md-primary').toggleClass('open');
-      if ($('.md-primary').hasClass('open')) {
-        $(".lang-ua").css('transform', 'translate(-30px,0px)');
-        $(".lang-gb").css('transform', 'translate(-70px,0px)');
-        $(".lang-ru").css('transform', 'translate(-100px,0px)');
-      } else {
-        $(".lang-ua").css('transform', 'translate(5px,0px)');
-        $(".lang-gb").css('transform', 'translate(15px,0px)');
-        $(".lang-ru").css('transform', 'translate(25px,0px)');
-      }
-      $(".lang-ua, .lang-gb, .lang-ru").css('transition', '0.5s');
+    var windowWidth;
+    $( window ).resize(function() {
+      console.log($( window ).width());
+      windowWidth = $( window ).width();
     });
 
-    $(this).click(function(event) {
-      /* Act on the event */
+    $('.md-primary, .lang-item').click(function(event) {
+      windowWidth = $( window ).width();
+      $('.md-primary').toggleClass('open');
+      if ($('.md-primary').hasClass('open')) {
+        if (windowWidth <= 600) {
+          $(".lang-ua").css('transform', 'translate(5px,0px)');
+          $(".lang-gb").css('transform', 'translate(5px,0px)');
+          $(".lang-ru").css('transform', 'translate(5px,0px)');
+        } else {
+          $(".lang-ua").css('transform', 'translate(5px,0px)');
+          $(".lang-gb").css('transform', 'translate(15px,0px)');
+          $(".lang-ru").css('transform', 'translate(25px,0px)');
+        }
+      } else {
+        if (windowWidth <= 600) {
+          $(".lang-ua").css('transform', 'translate(5px, -30px)');
+          $(".lang-gb").css('transform', 'translate(5px,-55px)');
+          $(".lang-ru").css('transform', 'translate(5px,-100px)');
+        } else {
+          $(".lang-ua").css('transform', 'translate(-30px,0px)');
+          $(".lang-gb").css('transform', 'translate(-70px,0px)');
+          $(".lang-ru").css('transform', 'translate(-100px,0px)');
+        }
+      }
+      $(".lang-item").css('transition', '0.5s');
     });
 
     $('.e-category-item').click(function(event) {
