@@ -836,12 +836,12 @@ textarea {
     display: flex; }
     .m-main-wrapper .card-footer .footer-btns .open-map-btn {
       border: none;
-      background-color: #ccc; }
+      background-color: #626F59; }
       .m-main-wrapper .card-footer .footer-btns .open-map-btn .fa {
         color: #fff; }
     .m-main-wrapper .card-footer .footer-btns .card-details-btn {
       border: none;
-      background-color: #ccc; }
+      background-color: #EE8903; }
       .m-main-wrapper .card-footer .footer-btns .card-details-btn a {
         color: #fff; }
 
